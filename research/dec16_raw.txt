@@ -1,0 +1,20 @@
+# Booking.com, same search, Dec 16-21, 2026 for the mountain towns. Read 2026-11-14.
+# Format: property: Dec 21-26 / Dec 16-21 per night USD before taxes (hotels listed in both weeks)
+## Jackson, Wyoming | available Dec 16-21: 37 | ratio 0.763 (12 hotels)
+Cowboy Village Resort:243/239; The Lodge at Jackson Hol:279/179; Elk Country Inn:238/176; Mountain Modern Jackson :248/196; 49'er Inn & Suites:188/171; Wyoming Inn of Jackson H:259/182; Antler Inn:183/148; The Virginian Lodge, an :268/165; The Rockwell Inn:358/264; Spring Creek Ranch:391/313; Rustic Inn Creekside:373/297; SpringHill Suites by Mar:304/211
+## Steamboat Springs, Colorado | available Dec 16-21: 320 | ratio 0.656 (11 hotels)
+Holiday Inn Steamboat Sp:263/187; Quality Inn & Suites Ste:167/147; The Nordic Lodge:258/171; Legacy Vacation Resorts :191/113; Holiday Inn Express & Su:283/213; Homewood Suites By Hilto:466/258; La Quinta Inn by Wyndham:207/142; The Fold Hotels Steamboa:402/185; Residence Inn by Marriot:699/237; The Steamboat Grand:461/493; Ridgecrest 202 condo:459/389
+## Estes Park, Colorado | available Dec 16-21: 259 | ratio 0.883 (11 hotels)
+Bugle Pointe B23 by :280/192; Holiday Inn Estes Pa:159/159; Hotel Estes:85/87; Murphy's Resort:119/111; Fall River Casita:174/140; Misty Mountain Lodge:137/139; Best Western Plus Si:142/144; Boulder Brook on Fal:186/197; Rams Horn Village Re:345/257; Silver Moon Inn:143/142; Coyote Mountain Lodg:132/111
+## Breckenridge, Colorado | available Dec 16-21: 337 | ratio 0.779 (6 hotels, no price cap because so few matched)
+Beaver Run Resort:393/285; Hotel Alpenrock Brec:852/614; Hyatt Vacation Club :727/556; Residence Inn by Mar:759/460; Village at Breckenri:418/383; Mountain Thunder Lod:669/677
+## Winter Park, Colorado | available Dec 16-21: 220 | ratio 0.677 (10 hotels under $700)
+Snowblaze Condos Bui:659/350; Ski Condo with Mount:1008/711; The Vintage Hotel:329/283; Fraser Crossing and :419/349; Zephyr Mountain Lodg:445/384; Great Location! Down:455/242; The Viking Lodge - D:238/194; Best Western Alpengl:284/248; Hi Country Haus Unit:600/329; Downtown WP Loft 305:607/373; Beaver Village Unit :336/210
+## Red River, New Mexico | available Dec 16-21: 48 | ratio 0.736 (9 units)
+Casa Nueva #6 Townho:673/502; Our Red River Cabin :927/677; Grandview #12 Townho:601/460; Grandview #9 Townhou:693/517; Grandview #10 Townho:637/481; Sitzmark Sports Lodg:422/268; Bellamy's Ski Haus:303/291; Riverside Cabin:675/455; Arrowhead 18:336/227
+
+# Dec 16-21 hotel rate used on the page = Christmas-week rate x ratio:
+# Steamboat 326 x 0.656 = 214; Jackson 282 x 0.763 = 215; Estes 191 x 0.883 = 169; Breckenridge 414 x 0.779 = 323; Winter Park 396 x 0.677 = 268; Red River 652 x 0.736 = 480
+
+# Flights Dec 16-21 (Google Flights, per person): IAH-DEN United nonstop $341 (Frontier $188); IAH-HDN United one stop $448; IAH-JAC United one stop $508
+# Cars Dec 16-21 (Kayak): DEN $191; HDN $277; JAC $244
