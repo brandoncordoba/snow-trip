@@ -1,0 +1,26 @@
+# Low-elevation options. All read 2026-11-14. Same method as the other files.
+# Booking.com per night USD before taxes, 2 adults + 2 children, 1 room. Format: Dec 16-21 / Dec 21-26 / Feb 1-6 ("-" = not on that first page)
+## Duluth, Minnesota | available: 39 / 42 / 46
+Fairfield Inn & Suites:181/152/168; TownePlace Suites by M:214/190/198; Lift Bridge Lodge, an :222/165/187; Sheraton Duluth Hotel:238/214/232; Pier B Resort:279/215/198; Holiday Inn Express & :235/184/193; Park Point Marina Inn:179/151/135; AmericInn by Wyndham D:141/108/145; Country Inn & Suites b:208/108/122; La Quinta by Wyndham D:183/135/144; Tru By Hilton Duluth M:173/133/132; Holiday Inn & Suites D:221/-/177; Baymont by Wyndham Dul:121/85/-; Comfort Inn Duluth Wes:-/113/167; Hampton Inn Duluth-Can:-/171/171; Canal Park Lodge:-/217/205
+## Quebec City, Quebec | available: 129 / 142 / 304
+Le Saint Edouard, Worl:179/196/134; Holiday Inn Express Qu:171/191/203; Hôtel Le Concorde Québ:217/219/-; Hilton Quebec:872/921/348; Hôtel Must Aéroport de:148/141/-; Travelodge by Wyndham :89/102/-; Quality Inn:131/148/-; Quality Suites:116/121/-; Les Lofts Dorchester -:267/-/115; Hotel Classique Quebec:103/109/-; Hôtel Cofortel:118/123/-; Super 8 by Wyndham Que:128/124/-; Courtyard by Marriott :208/217/-
+## Whitefish, Montana | available: 82 / 65 / 78
+Hampton Inn & Suites W:108/108/120; TownePlace Suites by M:149/161/149; Grouse Mountain Lodge:158/178/369; Apres Whitefish:122/126/139; Whitefish Riverfront H:128/137/141; Best Western Rocky Mou:97/112/115; Kandahar Lodge at Whit:196/268/-; Firebrand Hotel:214/249/238; Baymont by Wyndham Whi:102/108/120; Cowboy Condo:229/229/-; Historic Big Mountain :323/397/274; Duck Inn Lodge:203/217/184; Chalet Inn:106/106/-; Lodge at Whitefish Lak:264/-/264
+
+# Google Flights, round trip per person from IAH, lowest fare shown (all one stop)
+IAH-DLH  Dec 16-21 $378   Dec 21-26 $586   Feb 1-6 $378
+IAH-YQB  Dec 16-21 $877   Dec 21-26 $1,151 Feb 1-6 $813
+IAH-FCA  Dec 16-21 $419   Dec 21-26 $757   Feb 1-6 $419
+
+# Kayak, cheapest car for the 5 days
+DLH  $269 / $260 / $269     FCA  $176 / $185 / $176     YQB  $144 / $213 / $164
+
+# NOAA 1991-2020 daily normals: % of years with 1 in+ on the ground, median depth, avg high/low F
+DULUTH, MN US (USW00014913, 1,428 ft)   Dec 17: 87%, 7 in, 24/9   Dec 25: 92%, 8 in, 22/7    Feb 10: 99%, 14 in, 23/4
+WHITEFISH, MT US (USC00248902, 3,100 ft) Dec 17: 84%, 5 in, 28/17  Dec 25: 92%, 7 in, 28/16   Feb 10: 98%, 13 in, 33/16
+Quebec City: not in the NOAA set. GLM lane's figures from station records: 91% on Dec 25, about 10 in late Dec, 22 in mid Feb (not rechecked).
+
+# Same-hotel averages used on the page
+Duluth (11 hotels in all three windows): $205 / $160 / $169
+Whitefish (10 hotels in all three windows): $160 / $179 / $185
+Quebec City (11 hotels in both December windows, under $700): $146 / $154; February from only 2 matched hotels: $169
