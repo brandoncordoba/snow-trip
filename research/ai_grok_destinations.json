@@ -1,0 +1,424 @@
+{
+  "assumptions": "Party of 2 adults and 2 children (ages 4-7), one hotel room or condo that sleeps 4, five nights. Christmas week is Dec 21-26, 2026. February comparison week is Feb 1-6, 2027 (not Presidents Day week). Home airport is IAH. Drive hours are Rome2Rio road times from Conroe unless noted. White Christmas probability is NOAA 1991-2020 chance of at least 1 inch of snow on the ground on Dec 25 at the named station. Snow depth is resort average base depth from OnTheSnow where a ski area exists; that is mountain base, not the town sidewalk. Lodging and airfare single numbers are estimates from published ranges on pages opened, not a completed booking for those exact dates, because live fare calendars did not return extractable prices. Flight hours are the shortest published IAH itinerary (nonstop when one exists).",
+  "destinations": [
+    {
+      "name": "Breckenridge",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 9601,
+      "drive_hours_from_conroe_tx": 17.4,
+      "flight_hours_from_iah": 2.7,
+      "airport_to_town_drive_hours": 2.5,
+      "white_christmas_probability_pct": 97.7,
+      "avg_snow_depth_late_dec_in": 30,
+      "avg_snow_depth_mid_feb_in": 58,
+      "avg_high_f_late_dec": 30,
+      "avg_low_f_late_dec": 0,
+      "avg_high_f_mid_feb": 30,
+      "avg_low_f_mid_feb": 1,
+      "lodging_per_night_christmas_usd": 650,
+      "lodging_per_night_february_usd": 320,
+      "flight_per_person_christmas_usd": 420,
+      "flight_per_person_february_usd": 180,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Carter Park ice rink and free downtown snow play",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Walkable historic Main Street; rink and sled hills are the easy snow memory, not expert terrain."
+        },
+        {
+          "name": "Breckenridge beginner ski school on Peak 8",
+          "price_usd": null,
+          "min_age_or_height": "typically about age 3",
+          "note": "Price for a half-day kids lesson was not on a page I could extract. Book early in Christmas week."
+        },
+        {
+          "name": "Summit Express airport shuttle as the arrival adventure",
+          "price_usd": 65,
+          "min_age_or_height": "none",
+          "note": "Rome2Rio lists the DEN-Breckenridge shuttle at about $65 and 2.5 hours. Not a play activity, but the mountain approach is the first nature moment."
+        }
+      ],
+      "nature_highlight": "Victorian mining town at the base of the Tenmile Range, with the Blue River through town and high peaks immediately above Main Street.",
+      "why_memorable_for_ages_4_to_7": "A real snowy storybook street they can walk, plus beginner snow school, without needing expert ski terrain.",
+      "risks": "Town sits near 9,600 feet; small kids can get altitude sickness, poor sleep, and headaches. I-70 winter closures and the 2.5-hour airport transfer. Christmas week sells out with multi-night minimums. Lows near 0 F.",
+      "estimated_fields": ["avg_high_f_late_dec", "avg_low_f_late_dec", "avg_high_f_mid_feb", "avg_low_f_mid_feb", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Breckenridge,_Colorado",
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.onthesnow.com/colorado/breckenridge/historical-snowfall",
+        "https://www.rome2rio.com/s/Conroe/Breckenridge-CO"
+      ]
+    },
+    {
+      "name": "Estes Park",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 7743,
+      "drive_hours_from_conroe_tx": 18.2,
+      "flight_hours_from_iah": 2.7,
+      "airport_to_town_drive_hours": 2.0,
+      "white_christmas_probability_pct": 74.5,
+      "avg_snow_depth_late_dec_in": 8,
+      "avg_snow_depth_mid_feb_in": 10,
+      "avg_high_f_late_dec": 36,
+      "avg_low_f_late_dec": 16,
+      "avg_high_f_mid_feb": 38,
+      "avg_low_f_mid_feb": 16,
+      "lodging_per_night_christmas_usd": 280,
+      "lodging_per_night_february_usd": 160,
+      "flight_per_person_christmas_usd": 420,
+      "flight_per_person_february_usd": 180,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Rocky Mountain National Park vehicle entry",
+          "price_usd": 35,
+          "min_age_or_height": "vehicle pass covers all passengers; walk-in fee starts at age 16",
+          "note": "NPS 7-day private vehicle pass is $35. Trail Ridge Road is closed in winter, so stay on lower valleys and look for elk."
+        },
+        {
+          "name": "Elk watching in town and along the Big Thompson",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Winter elk in the valley is the memory most 4-to-7-year-olds keep. Keep distance."
+        },
+        {
+          "name": "Estes Park Aerial Tramway to Prospect Mountain",
+          "price_usd": null,
+          "min_age_or_height": "none stated on the page opened",
+          "note": "Wikipedia notes the tram to Prospect Mountain. Fare was not on the page I opened."
+        }
+      ],
+      "nature_highlight": "Gateway to Rocky Mountain National Park, with elk in the valley and Longs Peak above town when clouds lift.",
+      "why_memorable_for_ages_4_to_7": "Wild animals in a snowy mountain town at an altitude small lungs handle better than a 9,600-foot ski base.",
+      "risks": "Only about a 75 percent chance of an inch of snow on Christmas, so a brown Christmas is possible. Trail Ridge Road is closed, limiting the high park. Holiday lodging still books up. Windy canyon roads from Denver.",
+      "estimated_fields": ["avg_snow_depth_late_dec_in", "avg_snow_depth_mid_feb_in", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Estes_Park,_Colorado",
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.currentresults.com/Weather/Colorado/temperature-december.php",
+        "https://www.currentresults.com/Weather/Colorado/temperature-february.php",
+        "https://www.nps.gov/romo/planyourvisit/fees.htm",
+        "https://www.rome2rio.com/s/Conroe/Estes-Park"
+      ]
+    },
+    {
+      "name": "Steamboat Springs",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "HDN",
+      "base_elevation_ft": 6866,
+      "drive_hours_from_conroe_tx": 20.5,
+      "flight_hours_from_iah": 3.1,
+      "airport_to_town_drive_hours": 0.5,
+      "white_christmas_probability_pct": 98.9,
+      "avg_snow_depth_late_dec_in": 29,
+      "avg_snow_depth_mid_feb_in": 76,
+      "avg_high_f_late_dec": 30,
+      "avg_low_f_late_dec": 6,
+      "avg_high_f_mid_feb": 34,
+      "avg_low_f_mid_feb": 8,
+      "lodging_per_night_christmas_usd": 550,
+      "lodging_per_night_february_usd": 280,
+      "flight_per_person_christmas_usd": 480,
+      "flight_per_person_february_usd": 280,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Howelsen Hill tubing and beginner ski hill",
+          "price_usd": null,
+          "min_age_or_height": "none stated",
+          "note": "Town hill, not the big resort. Lesson price was not on a page I opened."
+        },
+        {
+          "name": "Strawberry Park Hot Springs soak",
+          "price_usd": null,
+          "min_age_or_height": "young children allowed with an adult; some pools are hotter",
+          "note": "The kid-memorable piece: snow on the ground and warm water. Exact 2026 day-pass price was not extracted."
+        },
+        {
+          "name": "Yampa River walk and downtown snow play",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Walkable town at a kinder elevation than Breckenridge."
+        }
+      ],
+      "nature_highlight": "A real ranching valley with champagne-powder mountains and natural hot springs, not only a lift-served resort.",
+      "why_memorable_for_ages_4_to_7": "Near-certain snow, a small-town ski hill, and hot springs they can actually sit in after playing outside.",
+      "risks": "HDN winter flights can cancel in storms. Christmas week is sold out with minimum stays. The 4WD road to Strawberry Park can close; use the shuttle. Still cold, with lows in the single digits.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.onthesnow.com/colorado/steamboat/historical-snowfall",
+        "https://www.currentresults.com/Weather/Colorado/temperature-december.php",
+        "https://www.currentresults.com/Weather/Colorado/temperature-february.php",
+        "https://www.rome2rio.com/s/Conroe/Breckenridge-CO"
+      ]
+    },
+    {
+      "name": "Winter Park",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 9095,
+      "drive_hours_from_conroe_tx": 16.8,
+      "flight_hours_from_iah": 2.7,
+      "airport_to_town_drive_hours": 1.7,
+      "white_christmas_probability_pct": 99.5,
+      "avg_snow_depth_late_dec_in": 30,
+      "avg_snow_depth_mid_feb_in": 57,
+      "avg_high_f_late_dec": 29,
+      "avg_low_f_late_dec": 2,
+      "avg_high_f_mid_feb": 33,
+      "avg_low_f_mid_feb": 4,
+      "lodging_per_night_christmas_usd": 480,
+      "lodging_per_night_february_usd": 240,
+      "flight_per_person_christmas_usd": 420,
+      "flight_per_person_february_usd": 180,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Winter Park Resort beginner ski school",
+          "price_usd": null,
+          "min_age_or_height": "typically about age 3",
+          "note": "Family resort with a long beginner record. Lesson price not extracted."
+        },
+        {
+          "name": "Tubing hill at the resort",
+          "price_usd": null,
+          "min_age_or_height": "height rules vary by hill",
+          "note": "The no-lesson snow activity for ages 4 to 7. Price not on the history page opened."
+        },
+        {
+          "name": "Fraser River trail snow walk in town",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Short, flat, and close to lodging."
+        }
+      ],
+      "nature_highlight": "Fraser Valley at the west portal of the Moffat Tunnel, with a high snow probability and forested Continental Divide scenery an hour and a half from Denver.",
+      "why_memorable_for_ages_4_to_7": "Almost sure snow and a purpose-built family resort, closer to the airport than Breckenridge.",
+      "risks": "Base near 9,100 feet is still hard on small kids. Berthoud Pass can close. Christmas week minimum-stay rules. Temperatures below are estimates, not a town normals table I opened.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "avg_high_f_late_dec", "avg_low_f_late_dec", "avg_high_f_mid_feb", "avg_low_f_mid_feb", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.onthesnow.com/colorado/winter-park-resort/historical-snowfall",
+        "https://www.rome2rio.com/s/Conroe/Breckenridge-CO",
+        "https://www.currentresults.com/Weather/Colorado/temperature-december.php"
+      ]
+    },
+    {
+      "name": "Red River",
+      "state_or_province": "New Mexico",
+      "nearest_airport_code": "ABQ",
+      "base_elevation_ft": 8688,
+      "drive_hours_from_conroe_tx": 14.7,
+      "flight_hours_from_iah": 2.5,
+      "airport_to_town_drive_hours": 3.5,
+      "white_christmas_probability_pct": 65.9,
+      "avg_snow_depth_late_dec_in": 24,
+      "avg_snow_depth_mid_feb_in": 36,
+      "avg_high_f_late_dec": 35,
+      "avg_low_f_late_dec": 8,
+      "avg_high_f_mid_feb": 37,
+      "avg_low_f_mid_feb": 9,
+      "lodging_per_night_christmas_usd": 280,
+      "lodging_per_night_february_usd": 160,
+      "flight_per_person_christmas_usd": 350,
+      "flight_per_person_february_usd": 180,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Red River Ski Area beginner hill and tubing",
+          "price_usd": null,
+          "min_age_or_height": "none stated",
+          "note": "Small ski town where kids can walk from lodging to snow. Lesson price not extracted."
+        },
+        {
+          "name": "Free town trolley",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Wikipedia notes a free trolley inside town limits. Easy with tired 4-year-olds."
+        },
+        {
+          "name": "Enchanted Circle scenic drive toward Wheeler Peak and Taos",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "The nature day: Sangre de Cristo peaks and Carson National Forest. Winter road closures possible."
+        }
+      ],
+      "nature_highlight": "A one-street mining town in the Sangre de Cristo Mountains on the Enchanted Circle, with Wheeler Peak nearby.",
+      "why_memorable_for_ages_4_to_7": "Small enough that the whole vacation is the snowy main street, and a long drive instead of a complicated flight.",
+      "risks": "Drive is 14 hours 39 minutes, just over a 14-hour day, so plan an overnight or share the driving. About a 1-in-3 chance Christmas is not white. Bobcat Pass can close. Altitude is still 8,688 feet.",
+      "estimated_fields": ["airport_to_town_drive_hours", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Red_River,_New_Mexico",
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.onthesnow.com/new-mexico/red-river/historical-snowfall",
+        "https://www.rome2rio.com/s/Conroe/Red-River-NM"
+      ]
+    },
+    {
+      "name": "Ruidoso",
+      "state_or_province": "New Mexico",
+      "nearest_airport_code": "ROW",
+      "base_elevation_ft": 6920,
+      "drive_hours_from_conroe_tx": 13.7,
+      "flight_hours_from_iah": 5.2,
+      "airport_to_town_drive_hours": 1.4,
+      "white_christmas_probability_pct": null,
+      "avg_snow_depth_late_dec_in": null,
+      "avg_snow_depth_mid_feb_in": null,
+      "avg_high_f_late_dec": null,
+      "avg_low_f_late_dec": null,
+      "avg_high_f_mid_feb": null,
+      "avg_low_f_mid_feb": null,
+      "lodging_per_night_christmas_usd": 220,
+      "lodging_per_night_february_usd": 140,
+      "flight_per_person_christmas_usd": 280,
+      "flight_per_person_february_usd": 160,
+      "crowd_level_christmas": "medium",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Ski Apache beginner area",
+          "price_usd": null,
+          "min_age_or_height": "none stated",
+          "note": "The local ski hill above town. Snow odds and lesson prices were not confirmed."
+        },
+        {
+          "name": "Inn of the Mountain Gods lakeside walk",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "A gentle nature stop if the high road is open. Not verified open every winter day."
+        },
+        {
+          "name": "Town sledding hill",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Assume a free hill exists; I did not open a park page confirming a named hill and rules."
+        }
+      ],
+      "nature_highlight": "Sacramento Mountains pines above the Tularosa Basin, the closest real mountain town within a 14-hour drive of Conroe.",
+      "why_memorable_for_ages_4_to_7": "They can say they drove to the mountains and played in snow, if the snow is actually there.",
+      "risks": "NOAA station for Ruidoso had insufficient data for a white-Christmas percent, so snow is not confirmed. Southern New Mexico often has thin or patchy December snow. Mountain roads ice over. Flying via Roswell is a long connection, so driving is the point of this pick.",
+      "estimated_fields": ["base_elevation_ft", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://www.rome2rio.com/s/Conroe/Ruidoso",
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.ncei.noaa.gov/news/white-christmas"
+      ]
+    },
+    {
+      "name": "Jackson",
+      "state_or_province": "Wyoming",
+      "nearest_airport_code": "JAC",
+      "base_elevation_ft": 6237,
+      "drive_hours_from_conroe_tx": 25.5,
+      "flight_hours_from_iah": 3.6,
+      "airport_to_town_drive_hours": 0.3,
+      "white_christmas_probability_pct": 93,
+      "avg_snow_depth_late_dec_in": 17,
+      "avg_snow_depth_mid_feb_in": 36,
+      "avg_high_f_late_dec": 26,
+      "avg_low_f_late_dec": 7,
+      "avg_high_f_mid_feb": 30,
+      "avg_low_f_mid_feb": 9,
+      "lodging_per_night_christmas_usd": 520,
+      "lodging_per_night_february_usd": 280,
+      "flight_per_person_christmas_usd": 650,
+      "flight_per_person_february_usd": 350,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Grand Teton National Park scenic drive",
+          "price_usd": 35,
+          "min_age_or_height": "vehicle pass covers passengers",
+          "note": "NPS 7-day private vehicle fee is $35. Inner park roads may be closed; the moose-Wilson and highway views still work in winter."
+        },
+        {
+          "name": "National Elk Refuge horse-drawn sleigh",
+          "price_usd": null,
+          "min_age_or_height": "none stated",
+          "note": "The classic kid wildlife ride. Fare was not on a page I opened."
+        },
+        {
+          "name": "Town Square elk-antler arch walk",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Free and short. Pair with a hot chocolate stop when the high is only 26 F."
+        }
+      ],
+      "nature_highlight": "The Tetons rising out of the valley, with thousands of elk on the National Elk Refuge in winter.",
+      "why_memorable_for_ages_4_to_7": "Wildlife they can see from a sleigh, plus a real mountain skyline, at a town elevation easier than Summit County.",
+      "risks": "December high is only 26 F, which is a short outdoor window for ages 4 to 7. JAC nonstop can cancel. Christmas lodging sells out. Jackson town snow-on-ground percent was missing in NOAA; 93 percent is the nearby Mammoth station, not Jackson itself. Resort base depth is the ski hill, not the town square.",
+      "estimated_fields": ["base_elevation_ft", "drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "white_christmas_probability_pct", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://www.rome2rio.com/s/Houston/Jackson-WY",
+        "https://www.onthesnow.com/wyoming/jackson-hole/historical-snowfall",
+        "https://www.currentresults.com/Weather/Wyoming/temperature-december.php",
+        "https://www.currentresults.com/Weather/Wyoming/temperature-february.php",
+        "https://www.nps.gov/grte/planyourvisit/fees.htm",
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx"
+      ]
+    },
+    {
+      "name": "Truckee",
+      "state_or_province": "California",
+      "nearest_airport_code": "RNO",
+      "base_elevation_ft": 5823,
+      "drive_hours_from_conroe_tx": 28,
+      "flight_hours_from_iah": 5.5,
+      "airport_to_town_drive_hours": 0.6,
+      "white_christmas_probability_pct": 92.7,
+      "avg_snow_depth_late_dec_in": 22,
+      "avg_snow_depth_mid_feb_in": 36,
+      "avg_high_f_late_dec": 41,
+      "avg_low_f_late_dec": 16,
+      "avg_high_f_mid_feb": 44,
+      "avg_low_f_mid_feb": 18,
+      "lodging_per_night_christmas_usd": 450,
+      "lodging_per_night_february_usd": 240,
+      "flight_per_person_christmas_usd": 480,
+      "flight_per_person_february_usd": 260,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Northstar tubing and beginner ski school",
+          "price_usd": null,
+          "min_age_or_height": "height rules on the tubing hill",
+          "note": "Northstar is the gentle Tahoe resort next to Truckee. Lesson and tube prices were not on the snow-history page."
+        },
+        {
+          "name": "Donner Lake snow walk",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "Flat lakeshore with a pioneer story. Stay off ice unless a ranger says it is safe."
+        },
+        {
+          "name": "Downtown Truckee historic street",
+          "price_usd": 0,
+          "min_age_or_height": "none",
+          "note": "A walkable railroad town at only about 5,800 feet, kinder on small kids than Summit County."
+        }
+      ],
+      "nature_highlight": "Donner Lake and the Sierra crest, with Lake Tahoe a short drive south when the highway is open.",
+      "why_memorable_for_ages_4_to_7": "High chance of snow on the ground, a lower town elevation, and a lake-and-pines landscape that does not look like Colorado.",
+      "risks": "I-80 over Donner Summit closes in storms. Christmas week in Tahoe is packed. Flight hours and fares are estimates; I did not open a live IAH-RNO calendar. Temperatures are estimates, not a normals table I opened.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "flight_hours_from_iah", "airport_to_town_drive_hours", "avg_high_f_late_dec", "avg_low_f_late_dec", "avg_high_f_mid_feb", "avg_low_f_mid_feb", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://www.ncei.noaa.gov/sites/default/files/2021-12/Christmas_day_snow_statistics_1991-2020_updated.xlsx",
+        "https://www.onthesnow.com/california/northstar-california/historical-snowfall",
+        "https://www.ncei.noaa.gov/news/white-christmas"
+      ]
+    }
+  ]
+}

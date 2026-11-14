@@ -517,7 +517,7 @@ PAGE = f"""<!DOCTYPE html>
     <section class="section">
       <div class="container stack">
         <h2>How these numbers were checked</h2>
-        <p>Five AI models were each given the same brief through Ringer, and three finished. Their output had to pass an automated check: at least 8 destinations, numbers in every field, and source links that load. Then every price on this page was read separately from live booking sites, and every snow figure from NOAA's station files.</p>
+        <p>Five AI models were each given the same brief through Ringer. Their output had to pass an automated check: at least 8 destinations, numbers in every field, and source links that load. Then every price on this page was read separately from live booking sites, and every snow figure from NOAA's station files.</p>
         <ul class="notes">
           <li><strong>GPT-6 Astra passed.</strong> Its snow figures matched NOAA. Its hotel and flight prices were labeled as estimates, and the live quotes show they were too pessimistic about Christmas:</li>
         </ul>

@@ -1,0 +1,542 @@
+{
+  "assumptions": "Family: 2 adults + 2 children (ages 4 and 7) from Conroe, TX; home airport IAH; 5 nights in one hotel room or condo that sleeps 4. Christmas week = Mon Dec 21 to Sat Dec 26, 2026; February week = Mon Feb 22 to Sat Feb 27, 2027 (mom's non-holiday option, the week after the Presidents Day week of Feb 12-21, 2027). White-Christmas probability, snow depth, and temperature values are computed by me from official NOAA GHCN-Daily COOP/SNOTEL station records (1995-2024, Dec 25 snow depth >= 1 inch; late Dec = Dec 18-27 for temperatures and Dec 21-26 for snow depth; mid Feb = Feb 12-21) retrieved through the Regional Climate Center ACIS API (data.rcc-acis.org). Durango snow figures use the SNOTEL station at Purgatory ski-area elevation (8,920 ft) because no long-record snow-depth station exists near the town; Angel Fire uses Eagle Nest (11 mi north, same valley) as its nearest long-record station; Estes Park white-Christmas odds pool the two in-town stations (1993-2024). Drive hours are estimates: open-routing (OSRM) road distance divided by a 65 mph average; add 15-20% for food/fuel stops with kids (the raw engine times run about 15-20% slower than Google Maps). Flight hours are scheduled elapsed times taken from Kayak route pages (nonstop where offered; connecting routes are fastest one-stop estimates). Airfares are Kayak 12-month monthly route averages (December / February) where published, otherwise my estimates inside each route's published typical range; they are typical planning fares, not quotes for these exact weeks. Lodging prices are my estimates for a mid-range hotel room or condo sleeping 4 (the major booking engines block automated reading); treat them as +/-30% planning figures, pre-tax, same property class in both weeks. Canadian prices converted at USD/CAD 1.4257 (Bank of Canada, Nov 13, 2026).",
+  "destinations": [
+    {
+      "name": "Estes Park (Rocky Mountain National Park)",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 7743,
+      "drive_hours_from_conroe_tx": 16.1,
+      "flight_hours_from_iah": 2.73,
+      "airport_to_town_drive_hours": 1.8,
+      "white_christmas_probability_pct": 89,
+      "avg_snow_depth_late_dec_in": 4.4,
+      "avg_snow_depth_mid_feb_in": 3.7,
+      "avg_high_f_late_dec": 42,
+      "avg_low_f_late_dec": 20,
+      "avg_high_f_mid_feb": 41,
+      "avg_low_f_mid_feb": 21,
+      "lodging_per_night_christmas_usd": 280,
+      "lodging_per_night_february_usd": 200,
+      "flight_per_person_christmas_usd": 254,
+      "flight_per_person_february_usd": 149,
+      "crowd_level_christmas": "medium",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Hidden Valley sledding in Rocky Mountain National Park",
+          "price_usd": 30,
+          "min_age_or_height": "no minimum; little ones ride with parents",
+          "note": "$30 is the per-vehicle 1-day park entry fee (NPS); the groomed sledding hill itself is free and is the only designated sledding spot in the park (about 9,240 ft)."
+        },
+        {
+          "name": "Winter elk and wildlife watching around town",
+          "price_usd": 0,
+          "min_age_or_height": "all ages",
+          "note": "NPS calls winter the best time to view elk, mule deer and coyote in RMNP; large herds graze in and around Estes Park all season."
+        },
+        {
+          "name": "Horse-drawn sleigh ride",
+          "price_usd": null,
+          "min_age_or_height": "typically all ages",
+          "note": "Local stables run holiday sleigh rides; prices not posted this far ahead - book early for Christmas week (expect roughly $40-60/adult, not verified)."
+        }
+      ],
+      "nature_highlight": "Wild elk herds in the snow beneath the peaks of Rocky Mountain National Park, with the park's Hidden Valley sledding hill at 9,240 ft.",
+      "why_memorable_for_ages_4_to_7": "Sledding inside a real national park, elk standing at the fence line, and a cozy downtown riverwalk with hot cocoa - big wonder without extreme terrain.",
+      "risks": "Altitude 7,700 ft is mild but real for little kids; town snow cover is thinner than the high country (the in-town station's full 1951-2024 record shows many brown Christmases before 2000 - recent-30-year odds are about 89%); US-36 can ice up in storms; Christmas-week lodging books early.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USC00052759&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://data.rcc-acis.org/StnData?sid=USC00052761&sdate=1995-01-01&edate=2024-12-31&elems=snwd&output=json",
+        "https://www.nps.gov/romo/planyourvisit/fees.htm",
+        "https://www.nps.gov/romo/planyourvisit/winter-recreation.htm",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Denver-DEN",
+        "https://en.wikipedia.org/wiki/Estes_Park,_Colorado"
+      ]
+    },
+    {
+      "name": "Breckenridge",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 9728,
+      "drive_hours_from_conroe_tx": 15.7,
+      "flight_hours_from_iah": 2.73,
+      "airport_to_town_drive_hours": 1.8,
+      "white_christmas_probability_pct": 85,
+      "avg_snow_depth_late_dec_in": 15.7,
+      "avg_snow_depth_mid_feb_in": 28.3,
+      "avg_high_f_late_dec": 31,
+      "avg_low_f_late_dec": 3,
+      "avg_high_f_mid_feb": 34,
+      "avg_low_f_mid_feb": 5,
+      "lodging_per_night_christmas_usd": 600,
+      "lodging_per_night_february_usd": 350,
+      "flight_per_person_christmas_usd": 254,
+      "flight_per_person_february_usd": 149,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Frisco Adventure Park lift-served snow tubing (20 min north)",
+          "price_usd": 55,
+          "min_age_or_height": "no published minimum; one rider per tube",
+          "note": "$55/hour holiday rate (mid-Dec to early Jan); $44/hour regular rate applies Feb 22-27, 2027. Reservations required; sells out on holidays."
+        },
+        {
+          "name": "Two Below Zero dinner sleigh ride (Frisco)",
+          "price_usd": null,
+          "min_age_or_height": "children of all ages welcome",
+          "note": "Family favorite since 1983 - sleigh ride, hot cocoa, dinner and live music; winter season starts Nov 21; reservations required; seasonal menu/pricing on their site."
+        },
+        {
+          "name": "Children's ski and snowboard school at Breckenridge Resort",
+          "price_usd": null,
+          "min_age_or_height": "kids programs from about age 3",
+          "note": "Peak 9 has one of the biggest beginner complexes in North America; book weeks ahead for Dec 21-26."
+        }
+      ],
+      "nature_highlight": "A snow-globe Victorian mining town set directly under the jagged Tenmile Range, with 15-28 inches of snow normally on the ground in town.",
+      "why_memorable_for_ages_4_to_7": "Kids remember the free gondola over the village, tubing down a lit hill at Frisco, and Santa-level magic on Main Street - all walkable.",
+      "risks": "Altitude 9,728 ft is the real deal for ages 4-7 (go easy and hydrate the first 48 hours); Christmas week sells out months ahead with common 3-night minimums; I-70 holiday traffic; very high holiday crowds; cold nights around 3F.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USC00050909&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://data.rcc-acis.org/StnData?sid=USC00052281&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint&output=json",
+        "https://www.townoffrisco.com/things-to-do/frisco-adventure-park/tubing/",
+        "https://dinnersleighrides.com/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Denver-DEN",
+        "https://en.wikipedia.org/wiki/Breckenridge,_Colorado"
+      ]
+    },
+    {
+      "name": "Winter Park",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 9123,
+      "drive_hours_from_conroe_tx": 16.3,
+      "flight_hours_from_iah": 2.73,
+      "airport_to_town_drive_hours": 2.0,
+      "white_christmas_probability_pct": 100,
+      "avg_snow_depth_late_dec_in": 21.9,
+      "avg_snow_depth_mid_feb_in": 36.5,
+      "avg_high_f_late_dec": 24,
+      "avg_low_f_late_dec": 2,
+      "avg_high_f_mid_feb": 35,
+      "avg_low_f_mid_feb": 6,
+      "lodging_per_night_christmas_usd": 400,
+      "lodging_per_night_february_usd": 260,
+      "flight_per_person_christmas_usd": 254,
+      "flight_per_person_february_usd": 149,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Wagon and sleigh rides and Barnyard Buddies at Devil's Thumb Ranch",
+          "price_usd": null,
+          "min_age_or_height": "all ages",
+          "note": "A 6,500-acre ranch 15 minutes from Winter Park; sleigh rides meet and feed the horse herd; reservations via the ranch."
+        },
+        {
+          "name": "Children's ski and ride school at Winter Park Resort",
+          "price_usd": null,
+          "min_age_or_height": "young-children programs available (confirm ages at booking)",
+          "note": "Long rated among the best US resorts for beginner and family terrain; holiday lesson slots go fast."
+        },
+        {
+          "name": "Colorado Adventure Park tubing hill (Fraser)",
+          "price_usd": null,
+          "min_age_or_height": "rider rules on their site",
+          "note": "Dedicated tubing hill and terrain park 5 minutes from downtown Winter Park; snowmaking underway for the 2026/27 season; book sessions via their site."
+        }
+      ],
+      "nature_highlight": "The Fraser Valley is one of the snowiest accessible valleys in Colorado - 22 inches normally on the ground at Christmas, 36 by mid-February - under the Continental Divide.",
+      "why_memorable_for_ages_4_to_7": "A real horse-drawn sleigh to dinner, barnyard animals to feed, the state's gentlest beginner ski mountain, and snow deep enough to build a fort anywhere.",
+      "risks": "Coldest late-December nights of the Colorado options (average low 2F); altitude about 9,100 ft; Berthoud Pass drive from Denver can close in storms; Christmas-week minimum-stay rules and very high crowds.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USC00059175&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://data.rcc-acis.org/StnMeta?bbox=-105.90,39.85,-105.70,40.05",
+        "https://www.devilsthumbranch.com/",
+        "https://coloradoadventurepark.com/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Denver-DEN"
+      ]
+    },
+    {
+      "name": "Durango",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DRO",
+      "base_elevation_ft": 6532,
+      "drive_hours_from_conroe_tx": 16.3,
+      "flight_hours_from_iah": 4.8,
+      "airport_to_town_drive_hours": 0.4,
+      "white_christmas_probability_pct": 100,
+      "avg_snow_depth_late_dec_in": 17.6,
+      "avg_snow_depth_mid_feb_in": 29.9,
+      "avg_high_f_late_dec": 39,
+      "avg_low_f_late_dec": 12,
+      "avg_high_f_mid_feb": 44,
+      "avg_low_f_mid_feb": 17,
+      "lodging_per_night_christmas_usd": 230,
+      "lodging_per_night_february_usd": 160,
+      "flight_per_person_christmas_usd": 480,
+      "flight_per_person_february_usd": 390,
+      "crowd_level_christmas": "medium",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Cascade Canyon Winter Train (Durango & Silverton)",
+          "price_usd": 92.88,
+          "min_age_or_height": "no minimum; child fare is ages 4-11 ($82.08)",
+          "note": "Coal-fired steam train along the frozen Animas River to Cascade Canyon; Polar Express themed trains also run in December and sell out far in advance."
+        },
+        {
+          "name": "Beginner ski school and kids programs at Purgatory Resort",
+          "price_usd": null,
+          "min_age_or_height": "kids about 4 and up",
+          "note": "Wide green runs 25 minutes north of town at 8,800 ft; prices and holiday availability at purgatoryresort.com."
+        },
+        {
+          "name": "Soak at Durango Hot Springs",
+          "price_usd": null,
+          "min_age_or_height": "all ages (family hours)",
+          "note": "Mineral soaking pools just north of downtown; current admission posted at durangohotsprings.com."
+        }
+      ],
+      "nature_highlight": "A coal-fired steam train grinding up the frozen Animas River canyon - the most storybook kid experience in Colorado.",
+      "why_memorable_for_ages_4_to_7": "The train whistle echoing in a snow-covered canyon is the memory kids keep, plus hot springs and gentle beginner slopes.",
+      "risks": "Durango town (6,532 ft) is often snow-thin - the 100% white-Christmas figure is from the SNOTEL station at Purgatory ski-area elevation (8,920 ft), 25 minutes north; US-550 mountain passes close in storms; Polar Express trains sell out by summer; no nonstop IAH flights (about 4.8 h via Denver).",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_hours_from_iah", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USW00093005&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://data.rcc-acis.org/StnData?sid=USS0007M35S&sdate=1995-01-01&edate=2024-12-31&elems=snwd&output=json",
+        "https://www.durangotrain.com/cascade-canyon",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Durango-DRO",
+        "https://en.wikipedia.org/wiki/Durango,_Colorado",
+        "https://www.durangohotsprings.com/"
+      ]
+    },
+    {
+      "name": "Red River",
+      "state_or_province": "New Mexico",
+      "nearest_airport_code": "ABQ",
+      "base_elevation_ft": 8688,
+      "drive_hours_from_conroe_tx": 13.0,
+      "flight_hours_from_iah": 2.53,
+      "airport_to_town_drive_hours": 2.3,
+      "white_christmas_probability_pct": 76,
+      "avg_snow_depth_late_dec_in": 4.5,
+      "avg_snow_depth_mid_feb_in": 4.2,
+      "avg_high_f_late_dec": 35,
+      "avg_low_f_late_dec": 8,
+      "avg_high_f_mid_feb": 41,
+      "avg_low_f_mid_feb": 13,
+      "lodging_per_night_christmas_usd": 260,
+      "lodging_per_night_february_usd": 170,
+      "flight_per_person_christmas_usd": 520,
+      "flight_per_person_february_usd": 619,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Winter tubing at Red River Ski Area",
+          "price_usd": 30,
+          "min_age_or_height": "must be 42 inches tall (no age minimum)",
+          "note": "1-hour evening sessions from 4:30 pm; $30 weekday, $36 weekend/holiday (Dec 26, 2026-Jan 2, 2027 is holiday-priced); often sells out in holiday periods - book online."
+        },
+        {
+          "name": "Torchlight Parade and Fireworks on the ski hill",
+          "price_usd": 0,
+          "min_age_or_height": "all ages",
+          "note": "Every Saturday evening in winter - including Dec 26, 2026 and Feb 27, 2027 - skiers descend with flares followed by fireworks over Main Street."
+        },
+        {
+          "name": "Kids ski and snowboard lessons at Red River Ski Area",
+          "price_usd": null,
+          "min_age_or_height": "lessons for all ages per the resort",
+          "note": "Family-owned ski hill at 8,750 ft sitting in the middle of Main Street - kids can walk to lessons from most lodges."
+        }
+      ],
+      "nature_highlight": "A walkable mining-town main street in the Sangre de Cristo Mountains where the ski hill IS the town, elk wander through, and torchlight parades run every Saturday.",
+      "why_memorable_for_ages_4_to_7": "Sled, tube, ski, s'mores and the candy shop are all within two blocks - no car needed after you arrive, and fireworks come to you on Saturday night.",
+      "risks": "13-hour drive each way from Conroe; natural snowpack is thinner than Colorado (about 4.5 inches typical town cover - the resort makes snow); US-64 mountain passes; holiday tubing sessions sell out; February flights to ABQ are unusually expensive.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_per_person_christmas_usd", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USC00297323&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://redriverskiarea.com/winter/plan-purchase/tubing/",
+        "https://redriverskiarea.com/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Albuquerque-ABQ",
+        "https://en.wikipedia.org/wiki/Red_River,_New_Mexico",
+        "https://router.project-osrm.org/route/v1/driving/-95.456,30.312;-105.406,36.365?overview=false"
+      ]
+    },
+    {
+      "name": "Taos",
+      "state_or_province": "New Mexico",
+      "nearest_airport_code": "ABQ",
+      "base_elevation_ft": 6969,
+      "drive_hours_from_conroe_tx": 13.5,
+      "flight_hours_from_iah": 2.53,
+      "airport_to_town_drive_hours": 2.2,
+      "white_christmas_probability_pct": 36,
+      "avg_snow_depth_late_dec_in": 2.1,
+      "avg_snow_depth_mid_feb_in": 0.2,
+      "avg_high_f_late_dec": 41,
+      "avg_low_f_late_dec": 11,
+      "avg_high_f_mid_feb": 49,
+      "avg_low_f_mid_feb": 20,
+      "lodging_per_night_christmas_usd": 220,
+      "lodging_per_night_february_usd": 150,
+      "flight_per_person_christmas_usd": 520,
+      "flight_per_person_february_usd": 619,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Rio Grande Gorge Bridge walk",
+          "price_usd": 0,
+          "min_age_or_height": "all ages",
+          "note": "Walk the rim bridge 650 feet above the Rio Grande, 10 minutes west of town; bighorn sheep are commonly seen; free."
+        },
+        {
+          "name": "Children's ski school at Taos Ski Valley",
+          "price_usd": null,
+          "min_age_or_height": "kids programs from about age 3",
+          "note": "20 minutes up the canyon at 9,200 ft - the reliable snow is here, not in town; book holiday weeks early."
+        },
+        {
+          "name": "Enchanted Circle snow-play drive",
+          "price_usd": 0,
+          "min_age_or_height": "all ages",
+          "note": "83-mile scenic loop past Eagle Nest Lake and through Angel Fire with free pull-offs for snow play and photos."
+        }
+      ],
+      "nature_highlight": "The Rio Grande Gorge - a 650-foot-deep chasm you can walk across on a bridge, with the snowcapped Sangre de Cristos behind town.",
+      "why_memorable_for_ages_4_to_7": "A bridge over an enormous gorge, a Bavarian-style ski village up the canyon, and the brightest sunny blue-sky days of any snow option.",
+      "risks": "Taos town (6,969 ft) has snow on the ground on Christmas only about 1 year in 3 (36%) - snow play is 20 miles away at Taos Ski Valley; mid-February town snow is patchy (0.2 in average); 13.5-hour drive or pricey ABQ flights.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_per_person_christmas_usd", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USC00298668&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://taos.org/things-to-do-outdoors/rio-grande-gorge/",
+        "https://www.skitaos.com/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Albuquerque-ABQ",
+        "https://en.wikipedia.org/wiki/Taos,_New_Mexico"
+      ]
+    },
+    {
+      "name": "Angel Fire",
+      "state_or_province": "New Mexico",
+      "nearest_airport_code": "ABQ",
+      "base_elevation_ft": 8882,
+      "drive_hours_from_conroe_tx": 12.9,
+      "flight_hours_from_iah": 2.53,
+      "airport_to_town_drive_hours": 2.4,
+      "white_christmas_probability_pct": 73,
+      "avg_snow_depth_late_dec_in": 4.4,
+      "avg_snow_depth_mid_feb_in": 6.5,
+      "avg_high_f_late_dec": 38,
+      "avg_low_f_late_dec": 4,
+      "avg_high_f_mid_feb": 42,
+      "avg_low_f_mid_feb": 10,
+      "lodging_per_night_christmas_usd": 240,
+      "lodging_per_night_february_usd": 160,
+      "flight_per_person_christmas_usd": 520,
+      "flight_per_person_february_usd": 619,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Snow tubing at Angel Fire Resort",
+          "price_usd": 35,
+          "min_age_or_height": "resort tubing rules apply (small children with an adult)",
+          "note": "'As low as $35' booked online regular, $45 on the holiday schedule; sessions 10 am-4 pm (9 am holiday start); one-time $5 access card fee."
+        },
+        {
+          "name": "Kids ski and ride school at Angel Fire Resort",
+          "price_usd": null,
+          "min_age_or_height": "young-kid programs available",
+          "note": "Wide, gentle beginner slopes at an 8,600 ft base - among the least intimidating learning mountains anywhere."
+        },
+        {
+          "name": "Sledding on free Moreno Valley hills",
+          "price_usd": 0,
+          "min_age_or_height": "all ages with adults",
+          "note": "Open hills along the valley roads with Wheeler Peak (13,167 ft), New Mexico's highest summit, in view; ask lodging hosts for current safe spots."
+        }
+      ],
+      "nature_highlight": "A sunny, wind-protected alpine valley ringed by peaks - Wheeler Peak, New Mexico's highest mountain, stands over the town.",
+      "why_memorable_for_ages_4_to_7": "Tubing right at the resort base, bunny slopes with no intimidating crowds, and a village quiet enough that kids hear the sleigh bells.",
+      "risks": "Natural valley snow averages only 4-6 inches (resort makes snow); 12.9-hour drive each way; Angel Fire's own weather stations have gaps, so snow stats use Eagle Nest 11 miles north; February ABQ flights are expensive; valley winds can close upper lifts.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_per_person_christmas_usd", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USC00292700&sdate=1995-01-01&edate=2024-12-31&elems=snwd&output=json",
+        "https://data.rcc-acis.org/StnData?sid=USC00292700&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint&output=json",
+        "https://www.angelfireresort.com/tubing/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Albuquerque-ABQ",
+        "https://en.wikipedia.org/wiki/Angel_Fire,_New_Mexico"
+      ]
+    },
+    {
+      "name": "Quebec City",
+      "state_or_province": "Quebec",
+      "nearest_airport_code": "YQB",
+      "base_elevation_ft": 322,
+      "drive_hours_from_conroe_tx": 30.6,
+      "flight_hours_from_iah": 5.0,
+      "airport_to_town_drive_hours": 0.4,
+      "white_christmas_probability_pct": 91,
+      "avg_snow_depth_late_dec_in": 10.3,
+      "avg_snow_depth_mid_feb_in": 22.2,
+      "avg_high_f_late_dec": 25,
+      "avg_low_f_late_dec": 11,
+      "avg_high_f_mid_feb": 24,
+      "avg_low_f_mid_feb": 3,
+      "lodging_per_night_christmas_usd": 210,
+      "lodging_per_night_february_usd": 160,
+      "flight_per_person_christmas_usd": 950,
+      "flight_per_person_february_usd": 850,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Village Vacances Valcartier winter playground (tubing, snow rafting, ice slides)",
+          "price_usd": 28,
+          "min_age_or_height": "height-tiered pricing (about 48 in and under pays less)",
+          "note": "CAD $39.99+ online for 'tall' guests (about US$28); opens Friday, December 18, 2026; on-site CAD $44.99; snow rafting and 30+ runs - one of the largest winter playgrounds in North America."
+        },
+        {
+          "name": "Dufferin Terrace toboggan run beside Chateau Frontenac",
+          "price_usd": null,
+          "min_age_or_height": "small children ride with adults",
+          "note": "Historic wooden toboggan slide over the St. Lawrence, running since 1884; a few dollars per slide, paid on site."
+        },
+        {
+          "name": "German Christmas Market in Old Quebec",
+          "price_usd": 0,
+          "min_age_or_height": "all ages",
+          "note": "Free-admission wooden-village market with carousel and treats, late November through about Christmas; confirm the exact 2026 schedule."
+        }
+      ],
+      "nature_highlight": "Montmorency Falls - 83 feet taller than Niagara - freezing into a giant illuminated ice cone, beside a walled 400-year-old city under a foot of snow.",
+      "why_memorable_for_ages_4_to_7": "Kids toboggan beside a fairytale castle, tube down a whole winter theme park, sip maple taffy on snow, and see the famous Ice Hotel (tours are also sold at Valcartier; it typically opens in early January).",
+      "risks": "Genuinely cold (average late-Dec low 11F, wind off the St. Lawrence); no IAH nonstop - about 5 hours connecting via Chicago/Toronto; very high Christmas-week crowds and the most expensive airfare of the set; French signage; the Quebec Winter Carnival is early February (fun if they pick the Feb 1-6 window instead).",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_hours_from_iah", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=CA007016294&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://data.rcc-acis.org/StnData?sid=CA00701S001&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://www.valcartier.com/en/activities/winter-playground/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Quebec-City-YQB",
+        "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1",
+        "https://en.wikipedia.org/wiki/Quebec_City"
+      ]
+    },
+    {
+      "name": "Banff",
+      "state_or_province": "Alberta",
+      "nearest_airport_code": "YYC",
+      "base_elevation_ft": 4583,
+      "drive_hours_from_conroe_tx": 32.8,
+      "flight_hours_from_iah": 4.52,
+      "airport_to_town_drive_hours": 1.6,
+      "white_christmas_probability_pct": 100,
+      "avg_snow_depth_late_dec_in": 6.9,
+      "avg_snow_depth_mid_feb_in": 8.6,
+      "avg_high_f_late_dec": 21,
+      "avg_low_f_late_dec": 6,
+      "avg_high_f_mid_feb": 33,
+      "avg_low_f_mid_feb": 12,
+      "lodging_per_night_christmas_usd": 330,
+      "lodging_per_night_february_usd": 240,
+      "flight_per_person_christmas_usd": 412,
+      "flight_per_person_february_usd": 320,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Soak at Banff Upper Hot Springs",
+          "price_usd": 14,
+          "min_age_or_height": "all ages; youth 3-17 CAD $17.25, under 3 free",
+          "note": "Adult CAD $19.75 (about US$14); Canada's highest outdoor hot pool under Rundle Mountain; first-come, no reservations."
+        },
+        {
+          "name": "Banff Gondola to the Sulphur Mountain summit boardwalk",
+          "price_usd": null,
+          "min_age_or_height": "ages 5 and under ride free anytime",
+          "note": "Mountaintop Christmas program runs daily Nov 21-Dec 31, 2026; one child free per paying adult in the first two hours each day; adult fares via banffgondola.com."
+        },
+        {
+          "name": "Johnston Canyon icewalk and Lake Minnewanka skating",
+          "price_usd": 0,
+          "min_age_or_height": "all ages (ice cleats advised for little boots)",
+          "note": "Frozen waterfalls and a skating lake inside Banff National Park; free access but a Parks Canada daily pass is required per vehicle."
+        }
+      ],
+      "nature_highlight": "Frozen turquoise lakes and elk on Banff Avenue, with a 25-of-25-year measured white-Christmas record in town - the surest snow of any mountain town studied.",
+      "why_memorable_for_ages_4_to_7": "Soaking in an outdoor hot pool while snow falls on the peaks, riding a gondola to a boardwalk above the clouds, and skating on a frozen lake inside a national park.",
+      "risks": "Parks Canada pass required per vehicle; December nights can drop below -10F; Christmas lodging books out by fall; 1.5-hour airport transfer on Highway 1 in storms; town snowpack is modest (7 in average - the powder is up high); passports required.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_per_person_february_usd", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=CA003050519&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://data.rcc-acis.org/StnMeta?bbox=-115.70,51.05,-115.35,51.30",
+        "https://parks.canada.ca/pn-np/ab/banff/sources-banff-springs/tarifs-fees",
+        "https://www.banffgondola.com/tickets/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Calgary-YYC",
+        "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=1"
+      ]
+    },
+    {
+      "name": "Duluth",
+      "state_or_province": "Minnesota",
+      "nearest_airport_code": "DLH",
+      "base_elevation_ft": 705,
+      "drive_hours_from_conroe_tx": 19.8,
+      "flight_hours_from_iah": 5.0,
+      "airport_to_town_drive_hours": 0.25,
+      "white_christmas_probability_pct": 93,
+      "avg_snow_depth_late_dec_in": 8.5,
+      "avg_snow_depth_mid_feb_in": 15.3,
+      "avg_high_f_late_dec": 23,
+      "avg_low_f_late_dec": 9,
+      "avg_high_f_mid_feb": 24,
+      "avg_low_f_mid_feb": 5,
+      "lodging_per_night_christmas_usd": 180,
+      "lodging_per_night_february_usd": 130,
+      "flight_per_person_christmas_usd": 470,
+      "flight_per_person_february_usd": 380,
+      "crowd_level_christmas": "low",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Snow tubing at Spirit Mountain",
+          "price_usd": 25,
+          "min_age_or_height": "rider rules posted at spiritmt.com",
+          "note": "$25 two-hour day session; $29 glow (night) tubing; $20 weekday glow tubing except holiday weeks."
+        },
+        {
+          "name": "Bentleyville Tour of Lights walk-through",
+          "price_usd": 0,
+          "min_age_or_height": "all ages",
+          "note": "Millions of lights along the Bayfront - one of the country's largest displays; historically free with donations; confirm the exact 2026 dates (it typically ends just before New Year's)."
+        },
+        {
+          "name": "Gooseberry Falls frozen waterfalls on the North Shore",
+          "price_usd": null,
+          "min_age_or_height": "all ages",
+          "note": "Five waterfalls freeze into ice curtains 40 minutes up Lake Superior's shore; a Minnesota state park vehicle permit is required - fee on the DNR park page."
+        }
+      ],
+      "nature_highlight": "Lake Superior's frozen shore - waterfall ice curtains, sea smoke over the lake, and the Aerial Lift Bridge rimmed in ice.",
+      "why_memorable_for_ages_4_to_7": "Kids see a Great Lake freeze, tube a lit hill, walk through five million lights at Bentleyville, and watch giant ships under the lift bridge.",
+      "risks": "Cold even by trip standards (average late-Dec low 9F, lake-effect snow squalls); lake winds make mid-February bitter; no IAH nonstop (about 5 h via Minneapolis); activities are spread along a 40-minute shore drive.",
+      "estimated_fields": ["drive_hours_from_conroe_tx", "airport_to_town_drive_hours", "flight_hours_from_iah", "lodging_per_night_christmas_usd", "lodging_per_night_february_usd", "flight_per_person_christmas_usd", "flight_per_person_february_usd"],
+      "sources": [
+        "https://data.rcc-acis.org/StnData?sid=USW00014913&sdate=1995-01-01&edate=2024-12-31&elems=maxt,mint,snwd&output=json",
+        "https://www.spiritmt.com/tubing/",
+        "https://www.dnr.state.mn.us/state_parks/park.html?id=spk00237",
+        "https://bentleyville.org/",
+        "https://www.kayak.com/flight-routes/Houston-IAH/Duluth-DLH",
+        "https://en.wikipedia.org/wiki/Duluth,_Minnesota"
+      ]
+    }
+  ]
+}
