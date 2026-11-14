@@ -105,7 +105,7 @@ D = [
 GAS_MPG, GAS_PRICE = 20, 3.00  # assumption for the drive option; editable in the calculator
 PEOPLE, NIGHTS = 4, 5
 
-# Presidents Day week check (Feb 12-17, the no-school long weekend): same hotels.
+# Presidents Day week check (Feb 12-17): same hotels.
 PRES = dict(steamboat_lodge=(339, 396, 11), hdn_fly=546, den_fly=341)  # research/booking_presidents_raw.txt
 
 # What the GPT lane estimated before live prices were checked.
@@ -134,7 +134,6 @@ SOURCES = [
     ("Booking.com search results for each town and date window", "https://www.booking.com/"),
     ("Kayak car rental search at DEN, HDN and JAC", "https://www.kayak.com/cars"),
     ("Google Maps driving times", "https://www.google.com/maps"),
-    ("Conroe ISD 2026–2027 school calendar, approved 1/20/26", "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/e83881e1-1d85-43d1-b350-7fb41cffd1c1/26-27-CISD-Calendar.pdf"),
     ("CDC, Travel to High Altitudes", "https://wwwnc.cdc.gov/travel/page/travel-to-high-altitudes"),
     ("National Elk Refuge sleigh rides, rates and season", "https://www.nersleighrides.com/rates-and-location-2020/"),
     ("Saddleback Ranch snow tubing", "https://saddlebackranch.net/winter-activities/snow-tubing/"),
@@ -318,7 +317,7 @@ PAGE = f"""<!DOCTYPE html>
           <li class="tile"><span class="tile__num">+{money(sb['diff'])}</span><span class="tile__label">What Dec 21–26 costs over Feb 22–27 in Steamboat, for flights, hotel and car ({sb['pct']}% more)</span></li>
           <li class="tile"><span class="tile__num">{sb['n']['odds_x']:.0f}%</span><span class="tile__label">Of Christmases with snow on the ground in Steamboat, 1991–2020 (NOAA)</span></li>
           <li class="tile"><span class="tile__num">{money(sb['fly_x'])} → {money(sb['peak_fly'])}</span><span class="tile__label">The same nonstop flight to Steamboat if you leave Dec 26 instead of Dec 21</span></li>
-          <li class="tile"><span class="tile__num">0 vs 5</span><span class="tile__label">School days missed: Christmas break against a February week (Conroe ISD calendar)</span></li>
+          <li class="tile"><span class="tile__num">16 in → 26 in</span><span class="tile__label">Typical snow on the ground in Steamboat: Christmas Day against February 10 (NOAA)</span></li>
         </ul>
         <p class="caption muted">Every price is a live quote read on {CHECKED}. Prices will move; the gaps between weeks are the point.</p>
       </div>
@@ -328,8 +327,8 @@ PAGE = f"""<!DOCTYPE html>
       <div class="container stack">
         <h2>The recommendation</h2>
         <div class="callout stack stack--tight">
-          <p><strong>Steamboat Springs, Dec 21–26, home on the 26th.</strong> About {money(sb['total_x'])} for flights, hotel and car, against {money(sb['total_f'])} in late February. The {money(sb['diff'])} difference buys a white Christmas with a 99% snow record and no missed school.</p>
-          <p><strong>If the {money(sb['diff'])} is better spent elsewhere:</strong> the same trip on Feb 22–27 has 10 more inches of snow on the ground and warmer afternoons, and costs 5 school days.</p>
+          <p><strong>Steamboat Springs, Dec 21–26, home on the 26th.</strong> About {money(sb['total_x'])} for flights, hotel and car, against {money(sb['total_f'])} in late February. The {money(sb['diff'])} difference buys a white Christmas with a 99% snow record.</p>
+          <p><strong>If the {money(sb['diff'])} is better spent elsewhere:</strong> the same trip on Feb 22–27 has 10 more inches of snow on the ground and warmer afternoons.</p>
           <p><strong>Not recommended in any plan:</strong> any stay that runs past Dec 26, and Presidents Day week (Feb 12–17), which prices like Christmas.</p>
         </div>
       </div>
@@ -374,8 +373,8 @@ PAGE = f"""<!DOCTYPE html>
           </table>
         </div>
         <p class="caption muted">Hotel rates are averages of the same hotels in both weeks. Flights are United nonstop from Houston. "Places still bookable" is Booking.com's count for a family of four. Each comparison uses the hotels listed in both of its weeks, so the Dec 21–26 rate here differs a little from the cost table above.</p>
-        <h3>And the February week without missing school</h3>
-        <p>Conroe ISD is off Friday Feb 12 and Monday Feb 15. That long weekend is Presidents Day, and it prices like Christmas: the same {PRES['steamboat_lodge'][2]} Steamboat hotels averaged ${PRES['steamboat_lodge'][1]} a night for Feb 12–17 against ${PRES['steamboat_lodge'][0]} for Dec 21–26, and the nonstop flight is ${PRES['hdn_fly']} against $389.</p>
+        <h3>The February week to skip</h3>
+        <p>Presidents Day week, Feb 12–17, prices like Christmas: the same {PRES['steamboat_lodge'][2]} Steamboat hotels averaged ${PRES['steamboat_lodge'][1]} a night for Feb 12–17 against ${PRES['steamboat_lodge'][0]} for Dec 21–26, and the nonstop flight is ${PRES['hdn_fly']} against $389.</p>
       </div>
     </section>
 
@@ -408,7 +407,6 @@ PAGE = f"""<!DOCTYPE html>
           <table class="plain">
             <thead><tr><th scope="col"></th><th scope="col" class="x">Christmas week · Dec 21–26</th><th scope="col" class="f">February week</th></tr></thead>
             <tbody>
-              <tr><th scope="row">School days missed</th><td>0. Break runs Dec 21 to Jan 5.</td><td>5 for a Monday–Saturday week. The Feb 12–15 long weekend misses 2 on a five-night trip.</td></tr>
               <tr><th scope="row">Waking up to snow on Christmas morning</th><td>Yes. This is the only week that delivers it.</td><td>No.</td></tr>
               <tr><th scope="row">Closed on Dec 25</th><td>Steamboat's hot springs pools and Jackson's elk sleigh rides. Do them on another day.</td><td>Nothing.</td></tr>
               <tr><th scope="row">Choice of places to stay</th><td>Booking is 5 weeks out. Fewer places left than February in {len(fewer)} of 6 towns.</td><td>11 to 14 weeks out. More choice everywhere except Steamboat.</td></tr>
@@ -487,7 +485,6 @@ PAGE = f"""<!DOCTYPE html>
           <li>Activity prices other than the three spot-checked ones come from the pages the GPT-6 Astra lane cited.</li>
           <li>Rental cars were priced for Christmas week and February only, not for Dec 26–31 outside Denver.</li>
           <li>Snow records describe 1991–2020. Colorado's early season was thin in December 2025.</li>
-          <li>The school calendar is Conroe ISD's. Other districts differ.</li>
           <li>The altitude guidance is the CDC's general advice for travelers, not medical advice for your children.</li>
         </ul>
         <h3>Sources</h3>

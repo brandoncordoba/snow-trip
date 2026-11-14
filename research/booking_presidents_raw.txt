@@ -1,4 +1,4 @@
-# Booking.com, same search, Presidents Day week Feb 12-17, 2027 (Conroe ISD is off Feb 12 and Feb 15). Read 2026-11-14.
+# Booking.com, same search, Presidents Day week Feb 12-17, 2027. Read 2026-11-14.
 # Format: property: Dec 21-26, 2026 / Feb 12-17, 2027 per night USD before taxes ("-" = not in the December first page)
 ## Steamboat Springs, Colorado | available Feb 12-17: 121
 Holiday Inn Express & Su:283/275; Holiday Inn Steamboat Sp:263/236; Legacy Vacation Resorts :191/162; La Quinta Inn by Wyndham:207/252; Quality Inn & Suites Ste:167/200; The Nordic Lodge:258/275; Homewood Suites By Hilto:466/325; The Fold Hotels Steamboa:402/340; TownePlace Suites by Mar:-/413; Residence Inn by Marriot:699/667; The Steamboat Grand:461/1238; WorldMark Steamboat Spri:-/631; Chic Condo - King Bed - :331/389; Winterset 8 Pet Friendly:-/1520; EagleRidge Lodge 201 con:-/852
