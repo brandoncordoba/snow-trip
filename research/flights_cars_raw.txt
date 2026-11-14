@@ -1,0 +1,26 @@
+# Google Flights, round trip per person from Houston IAH, read 2026-11-14. Lowest fare shown per carrier/stop type.
+IAH-DEN  Dec 21-26: United nonstop $361 (Frontier nonstop $254)
+IAH-DEN  Dec 26-31: United nonstop $389 (Frontier nonstop $286)
+IAH-DEN  Feb 1-6:   United nonstop $361 (Frontier nonstop $188)
+IAH-DEN  Feb 12-17: United nonstop $341 (Frontier nonstop $242)
+IAH-HDN  Dec 21-26: United nonstop $389 (3 hr 8 min); one-stop $399
+IAH-HDN  Dec 26-31: United nonstop $1,080; United one-stop $688-$945; Delta one-stop via ATL $399
+IAH-HDN  Feb 1-6:   United nonstop $389
+IAH-HDN  Feb 12-17: United nonstop $546; United one-stop $488
+IAH-HDN  Feb 22-27: United nonstop $379
+IAH-JAC  Dec 21-26: United nonstop $539 (3 hr 35 min)
+IAH-JAC  Dec 26-31: United nonstop $815; one-stop $739
+IAH-JAC  Feb 1-6:   United one-stop $539; American one-stop $414; no nonstop shown
+
+# Kayak car rental, pick-up 10 am, drop-off noon, cheapest economy/compact total for the 5 days, read 2026-11-14.
+DEN  Dec 21-26: $435   Dec 26-31: $348   Feb 1-6: $181
+HDN  Dec 21-26: $304   Feb 22-27: $323
+JAC  Dec 21-26: $315   Feb 1-6: $213
+
+# Google Maps driving, read 2026-11-14.
+Conroe TX - Red River NM: 12 hr 44 min, 837 miles
+Conroe TX - Steamboat Springs CO: 17 hr 1 min, 1,141 miles
+Denver airport - Winter Park: 1 hr 32 min, 88 miles
+Denver airport - Estes Park: 1 hr 21 min, 73 miles
+Denver airport - Breckenridge: 1 hr 43 min, 102 miles
+Hayden airport (HDN) - Steamboat Springs: 28 min, 24 miles

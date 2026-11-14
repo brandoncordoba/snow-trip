@@ -1,0 +1,638 @@
+{
+ "Steamboat Springs, Colorado": {
+  "available": [
+   287,
+   142,
+   170
+  ],
+  "props": [
+   {
+    "name": "Quality Inn & Suites Ste",
+    "xmas": 167,
+    "peak": 199,
+    "feb": null
+   },
+   {
+    "name": "La Quinta Inn by Wyndham",
+    "xmas": 207,
+    "peak": 271,
+    "feb": 218
+   },
+   {
+    "name": "Holiday Inn Express & Su",
+    "xmas": 283,
+    "peak": 355,
+    "feb": 262
+   },
+   {
+    "name": "Holiday Inn Steamboat Sp",
+    "xmas": 263,
+    "peak": 315,
+    "feb": 233
+   },
+   {
+    "name": "Legacy Vacation Resorts",
+    "xmas": 191,
+    "peak": 193,
+    "feb": 158
+   },
+   {
+    "name": "The Nordic Lodge",
+    "xmas": 258,
+    "peak": 318,
+    "feb": 259
+   },
+   {
+    "name": "Homewood Suites By Hilto",
+    "xmas": 466,
+    "peak": 482,
+    "feb": 249
+   },
+   {
+    "name": "The Steamboat Grand",
+    "xmas": 461,
+    "peak": 1117,
+    "feb": 750
+   },
+   {
+    "name": "Residence Inn by Marriot",
+    "xmas": 699,
+    "peak": 509,
+    "feb": 635
+   },
+   {
+    "name": "Cross Timbers Chalet - F",
+    "xmas": 1986,
+    "peak": null,
+    "feb": 1739
+   },
+   {
+    "name": "Ridgecrest 202 condo",
+    "xmas": 459,
+    "peak": 726,
+    "feb": null
+   },
+   {
+    "name": "Chic Condo - King Bed -",
+    "xmas": 331,
+    "peak": 411,
+    "feb": 310
+   },
+   {
+    "name": "Villas 1425 condo",
+    "xmas": 594,
+    "peak": 877,
+    "feb": 719
+   }
+  ],
+  "matched_xmas_feb": {
+   "n": 11,
+   "xmas": 331,
+   "feb": 262,
+   "median_pct_diff": 8,
+   "cheaper_in_feb": 7
+  },
+  "matched_peak_feb": {
+   "n": 10,
+   "peak": 383,
+   "feb": 260,
+   "median_pct_diff": 28
+  },
+  "matched_xmas_peak": {
+   "n": 12,
+   "median_pct_diff": 24
+  }
+ },
+ "Winter Park, Colorado": {
+  "available": [
+   186,
+   123,
+   241
+  ],
+  "props": [
+   {
+    "name": "Snowblaze Condos Buildin",
+    "xmas": 659,
+    "peak": 812,
+    "feb": null
+   },
+   {
+    "name": "Zephyr Mountain Lodge",
+    "xmas": 445,
+    "peak": 710,
+    "feb": 445
+   },
+   {
+    "name": "Fraser Crossing and Foun",
+    "xmas": 419,
+    "peak": 587,
+    "feb": 298
+   },
+   {
+    "name": "Ski Condo with Mountain",
+    "xmas": 1008,
+    "peak": null,
+    "feb": 650
+   },
+   {
+    "name": "The Vintage Hotel",
+    "xmas": 329,
+    "peak": 511,
+    "feb": 211
+   },
+   {
+    "name": "The Viking Lodge - Downt",
+    "xmas": 238,
+    "peak": 263,
+    "feb": 169
+   },
+   {
+    "name": "Best Western Alpenglo Lo",
+    "xmas": 284,
+    "peak": 322,
+    "feb": 208
+   },
+   {
+    "name": "Great Location! Downtown",
+    "xmas": 455,
+    "peak": null,
+    "feb": 271
+   },
+   {
+    "name": "Hi Country Haus Unit 211",
+    "xmas": 600,
+    "peak": 770,
+    "feb": 355
+   },
+   {
+    "name": "Iron Horse Building D Un",
+    "xmas": 542,
+    "peak": 766,
+    "feb": null
+   },
+   {
+    "name": "Valley Hi Hotel",
+    "xmas": null,
+    "peak": 274,
+    "feb": 191
+   },
+   {
+    "name": "Hi Country Haus Unit 250",
+    "xmas": null,
+    "peak": 394,
+    "feb": 222
+   }
+  ],
+  "matched_xmas_feb": {
+   "n": 8,
+   "xmas": 432,
+   "feb": 284,
+   "median_pct_diff": 48,
+   "cheaper_in_feb": 7
+  },
+  "matched_peak_feb": {
+   "n": 8,
+   "peak": 452,
+   "feb": 216,
+   "median_pct_diff": 69
+  },
+  "matched_xmas_peak": {
+   "n": 8,
+   "median_pct_diff": 34
+  }
+ },
+ "Breckenridge, Colorado": {
+  "available": [
+   329,
+   240,
+   596
+  ],
+  "props": [
+   {
+    "name": "Beaver Run Resort",
+    "xmas": 393,
+    "peak": 591,
+    "feb": 470
+   },
+   {
+    "name": "River Mountain Lodge, A",
+    "xmas": 309,
+    "peak": 442,
+    "feb": 332
+   },
+   {
+    "name": "Hotel Alpenrock Breckenr",
+    "xmas": 852,
+    "peak": 1325,
+    "feb": 502
+   },
+   {
+    "name": "Four O'Clock Lodge Retre",
+    "xmas": 451,
+    "peak": null,
+    "feb": 309
+   },
+   {
+    "name": "Residence Inn by Marriot",
+    "xmas": 759,
+    "peak": 929,
+    "feb": null
+   },
+   {
+    "name": "Hyatt Vacation Club at T",
+    "xmas": 727,
+    "peak": 726,
+    "feb": 274
+   },
+   {
+    "name": "Village at Breckenridge,",
+    "xmas": 418,
+    "peak": 621,
+    "feb": null
+   },
+   {
+    "name": "Park Meadows 7C by Ski C",
+    "xmas": 323,
+    "peak": null,
+    "feb": 254
+   },
+   {
+    "name": "Grand Lodge on Peak 7",
+    "xmas": 599,
+    "peak": null,
+    "feb": 472
+   },
+   {
+    "name": "Village Peak 9 Sundown R",
+    "xmas": 411,
+    "peak": 648,
+    "feb": 304
+   },
+   {
+    "name": "Park Meadows 3B by Ski C",
+    "xmas": 231,
+    "peak": 353,
+    "feb": null
+   },
+   {
+    "name": "Trails End 411 by Ski Co",
+    "xmas": null,
+    "peak": 566,
+    "feb": 337
+   },
+   {
+    "name": "Ski-In Breck Condo: Walk",
+    "xmas": null,
+    "peak": 516,
+    "feb": 248
+   }
+  ],
+  "matched_xmas_feb": {
+   "n": 8,
+   "xmas": 431,
+   "feb": 320,
+   "median_pct_diff": 31,
+   "cheaper_in_feb": 6
+  },
+  "matched_peak_feb": {
+   "n": 7,
+   "peak": 591,
+   "feb": 332,
+   "median_pct_diff": 108
+  },
+  "matched_xmas_peak": {
+   "n": 8,
+   "median_pct_diff": 49
+  }
+ },
+ "Estes Park, Colorado": {
+  "available": [
+   203,
+   179,
+   316
+  ],
+  "props": [
+   {
+    "name": "Bugle Pointe B23 by Este",
+    "xmas": 280,
+    "peak": null,
+    "feb": 178
+   },
+   {
+    "name": "Holiday Inn Estes Park b",
+    "xmas": 159,
+    "peak": 163,
+    "feb": 122
+   },
+   {
+    "name": "Best Western Plus Silver",
+    "xmas": 142,
+    "peak": 150,
+    "feb": 142
+   },
+   {
+    "name": "Boulder Brook on Fall Ri",
+    "xmas": 186,
+    "peak": 186,
+    "feb": 186
+   },
+   {
+    "name": "Hotel Estes",
+    "xmas": 85,
+    "peak": 86,
+    "feb": null
+   },
+   {
+    "name": "Fall River Casita",
+    "xmas": 174,
+    "peak": 181,
+    "feb": 162
+   },
+   {
+    "name": "Misty Mountain Lodge",
+    "xmas": 137,
+    "peak": null,
+    "feb": 124
+   },
+   {
+    "name": "The Estes Park Resort",
+    "xmas": 251,
+    "peak": 269,
+    "feb": 183
+   },
+   {
+    "name": "Appenzell Inn",
+    "xmas": 126,
+    "peak": 169,
+    "feb": null
+   },
+   {
+    "name": "Murphy's Resort",
+    "xmas": 119,
+    "peak": 119,
+    "feb": 99
+   },
+   {
+    "name": "Silver Moon Inn",
+    "xmas": 143,
+    "peak": 152,
+    "feb": 139
+   },
+   {
+    "name": "Rams Horn Village Resort",
+    "xmas": 345,
+    "peak": 449,
+    "feb": 233
+   },
+   {
+    "name": "Ponderosa Lodge",
+    "xmas": 160,
+    "peak": 193,
+    "feb": 112
+   },
+   {
+    "name": "Coyote Mountain Lodge",
+    "xmas": 132,
+    "peak": 132,
+    "feb": null
+   },
+   {
+    "name": "Streamside on Fall River",
+    "xmas": 194,
+    "peak": 188,
+    "feb": null
+   },
+   {
+    "name": "Creekside Condos C by Es",
+    "xmas": null,
+    "peak": 421,
+    "feb": 193
+   }
+  ],
+  "matched_xmas_feb": {
+   "n": 11,
+   "xmas": 160,
+   "feb": 142,
+   "median_pct_diff": 20,
+   "cheaper_in_feb": 9
+  },
+  "matched_peak_feb": {
+   "n": 10,
+   "peak": 184,
+   "feb": 152,
+   "median_pct_diff": 27
+  },
+  "matched_xmas_peak": {
+   "n": 13,
+   "median_pct_diff": 4
+  }
+ },
+ "Jackson, Wyoming": {
+  "available": [
+   32,
+   31,
+   37
+  ],
+  "props": [
+   {
+    "name": "Cowboy Village Resort",
+    "xmas": 243,
+    "peak": null,
+    "feb": 201
+   },
+   {
+    "name": "SpringHill Suites by Mar",
+    "xmas": 304,
+    "peak": 452,
+    "feb": 317
+   },
+   {
+    "name": "Mountain Modern Jackson",
+    "xmas": 248,
+    "peak": 335,
+    "feb": 224
+   },
+   {
+    "name": "The Cloudveil, Autograph",
+    "xmas": 1918,
+    "peak": 2490,
+    "feb": 827
+   },
+   {
+    "name": "The Lodge at Jackson Hol",
+    "xmas": 279,
+    "peak": 369,
+    "feb": 201
+   },
+   {
+    "name": "49'er Inn & Suites",
+    "xmas": 188,
+    "peak": 249,
+    "feb": 295
+   },
+   {
+    "name": "Elk Country Inn",
+    "xmas": 238,
+    "peak": 220,
+    "feb": 211
+   },
+   {
+    "name": "Wyoming Inn of Jackson H",
+    "xmas": 259,
+    "peak": 379,
+    "feb": 204
+   },
+   {
+    "name": "Antler Inn",
+    "xmas": 183,
+    "peak": 220,
+    "feb": null
+   },
+   {
+    "name": "The Virginian Lodge, an",
+    "xmas": 268,
+    "peak": 354,
+    "feb": null
+   },
+   {
+    "name": "Rustic Inn Creekside",
+    "xmas": 373,
+    "peak": 469,
+    "feb": 287
+   },
+   {
+    "name": "The Rusty Parrot Lodge a",
+    "xmas": 822,
+    "peak": null,
+    "feb": 691
+   },
+   {
+    "name": "Spring Creek Ranch",
+    "xmas": 391,
+    "peak": 391,
+    "feb": 274
+   },
+   {
+    "name": "The Rockwell Inn",
+    "xmas": 358,
+    "peak": 420,
+    "feb": 274
+   },
+   {
+    "name": "Parkway Inn of Jackson H",
+    "xmas": 225,
+    "peak": null,
+    "feb": 201
+   },
+   {
+    "name": "Modern 2BR Jackson Condo",
+    "xmas": null,
+    "peak": 323,
+    "feb": 323
+   },
+   {
+    "name": "Miller Park Lodge",
+    "xmas": null,
+    "peak": 199,
+    "feb": 163
+   }
+  ],
+  "matched_xmas_feb": {
+   "n": 13,
+   "xmas": 279,
+   "feb": 274,
+   "median_pct_diff": 21,
+   "cheaper_in_feb": 11
+  },
+  "matched_peak_feb": {
+   "n": 12,
+   "peak": 374,
+   "feb": 274,
+   "median_pct_diff": 46
+  },
+  "matched_xmas_peak": {
+   "n": 12,
+   "median_pct_diff": 31
+  }
+ },
+ "Red River, New Mexico": {
+  "available": [
+   33,
+   12,
+   129
+  ],
+  "props": [
+   {
+    "name": "Alpine Lodge Red River",
+    "xmas": 381,
+    "peak": null,
+    "feb": 159
+   },
+   {
+    "name": "Casa Nueva #6 Townhouse",
+    "xmas": 673,
+    "peak": 673,
+    "feb": 179
+   },
+   {
+    "name": "Grandview #12 Townhouse",
+    "xmas": 601,
+    "peak": 601,
+    "feb": 160
+   },
+   {
+    "name": "Our Red River Cabin On T",
+    "xmas": 927,
+    "peak": null,
+    "feb": 274
+   },
+   {
+    "name": "Grandview #9 Townhouse",
+    "xmas": 693,
+    "peak": null,
+    "feb": 184
+   },
+   {
+    "name": "Grandview #10 Townhouse",
+    "xmas": 637,
+    "peak": null,
+    "feb": 169
+   },
+   {
+    "name": "Arrowhead 15",
+    "xmas": 203,
+    "peak": 307,
+    "feb": null
+   },
+   {
+    "name": "Lifts West Condo #G8",
+    "xmas": null,
+    "peak": 552,
+    "feb": 147
+   },
+   {
+    "name": "Lifts West Condo #115",
+    "xmas": null,
+    "peak": 548,
+    "feb": 146
+   }
+  ],
+  "matched_xmas_feb": {
+   "n": 6,
+   "xmas": 655,
+   "feb": 174,
+   "median_pct_diff": 276,
+   "cheaper_in_feb": 6
+  },
+  "matched_peak_feb": {
+   "n": 4,
+   "peak": 576,
+   "feb": 154,
+   "median_pct_diff": 276
+  },
+  "matched_xmas_peak": {
+   "n": 3,
+   "median_pct_diff": 0
+  }
+ }
+}

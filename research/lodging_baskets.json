@@ -1,0 +1,227 @@
+{
+ "Steamboat Springs, Colorado": {
+  "feb1": {
+   "n": 10,
+   "xmas": 375,
+   "feb": 379,
+   "cheaper_feb": 6,
+   "names": [
+    "La Quinta Inn by Wyndham",
+    "Holiday Inn Express & Su",
+    "Holiday Inn Steamboat Sp",
+    "Legacy Vacation Resorts",
+    "The Nordic Lodge",
+    "Homewood Suites By Hilto",
+    "The Steamboat Grand",
+    "Residence Inn by Marriot",
+    "Chic Condo - King Bed -",
+    "Villas 1425 condo"
+   ]
+  },
+  "feb22": {
+   "n": 9,
+   "xmas": 326,
+   "feb": 251,
+   "cheaper_feb": 6,
+   "names": [
+    "Homewood Suites By Hilto",
+    "Holiday Inn Steamboat Sp",
+    "Legacy Vacation Resorts",
+    "La Quinta Inn by Wyndham",
+    "The Fold Hotels Steamboa",
+    "Holiday Inn Express & Su",
+    "Residence Inn by Marriot",
+    "Quality Inn & Suites Ste",
+    "The Nordic Lodge"
+   ]
+  },
+  "peak": {
+   "n": 12,
+   "xmas": 365,
+   "peak": 481
+  },
+  "available": [
+   287,
+   142,
+   170
+  ]
+ },
+ "Winter Park, Colorado": {
+  "feb1": {
+   "n": 7,
+   "xmas": 396,
+   "feb": 280,
+   "cheaper_feb": 6,
+   "names": [
+    "Zephyr Mountain Lodge",
+    "Fraser Crossing and Foun",
+    "The Vintage Hotel",
+    "The Viking Lodge - Downt",
+    "Best Western Alpenglo Lo",
+    "Great Location! Downtown",
+    "Hi Country Haus Unit 211"
+   ]
+  },
+  "feb22": {
+   "n": 9,
+   "xmas": 437,
+   "feb": 340,
+   "cheaper_feb": 8,
+   "names": [
+    "Fraser Crossing and Foun",
+    "The Vintage Hotel",
+    "Snowblaze Condos Buildin",
+    "Best Western Alpenglo Lo",
+    "Great Location! Downtown",
+    "Zephyr Mountain Lodge Un",
+    "The Viking Lodge - Downt",
+    "Hi Country Haus Unit 211",
+    "Beaver Village Unit #033"
+   ]
+  },
+  "peak": {
+   "n": 8,
+   "xmas": 440,
+   "peak": 593
+  },
+  "available": [
+   186,
+   123,
+   241
+  ]
+ },
+ "Breckenridge, Colorado": {
+  "feb1": {
+   "n": 6,
+   "xmas": 414,
+   "feb": 357,
+   "cheaper_feb": 4,
+   "names": [
+    "Beaver Run Resort",
+    "River Mountain Lodge, A",
+    "Four O'Clock Lodge Retre",
+    "Park Meadows 7C by Ski C",
+    "Grand Lodge on Peak 7",
+    "Village Peak 9 Sundown R"
+   ]
+  },
+  "peak": {
+   "n": 5,
+   "xmas": 352,
+   "peak": 531
+  },
+  "available": [
+   329,
+   240,
+   596
+  ]
+ },
+ "Estes Park, Colorado": {
+  "feb1": {
+   "n": 11,
+   "xmas": 191,
+   "feb": 153,
+   "cheaper_feb": 9,
+   "names": [
+    "Bugle Pointe B23 by Este",
+    "Holiday Inn Estes Park b",
+    "Best Western Plus Silver",
+    "Boulder Brook on Fall Ri",
+    "Fall River Casita",
+    "Misty Mountain Lodge",
+    "The Estes Park Resort",
+    "Murphy's Resort",
+    "Silver Moon Inn",
+    "Rams Horn Village Resort",
+    "Ponderosa Lodge"
+   ]
+  },
+  "peak": {
+   "n": 13,
+   "xmas": 170,
+   "peak": 187
+  },
+  "available": [
+   203,
+   179,
+   316
+  ]
+ },
+ "Jackson, Wyoming": {
+  "feb1": {
+   "n": 11,
+   "xmas": 282,
+   "feb": 244,
+   "cheaper_feb": 9,
+   "names": [
+    "Cowboy Village Resort",
+    "SpringHill Suites by Mar",
+    "Mountain Modern Jackson",
+    "The Lodge at Jackson Hol",
+    "49'er Inn & Suites",
+    "Elk Country Inn",
+    "Wyoming Inn of Jackson H",
+    "Rustic Inn Creekside",
+    "Spring Creek Ranch",
+    "The Rockwell Inn",
+    "Parkway Inn of Jackson H"
+   ]
+  },
+  "feb22": {
+   "n": 12,
+   "xmas": 276,
+   "feb": 241,
+   "cheaper_feb": 9,
+   "names": [
+    "The Lodge at Jackson Hol",
+    "Mountain Modern Jackson",
+    "SpringHill Suites by Mar",
+    "Wyoming Inn of Jackson H",
+    "Elk Country Inn",
+    "Rustic Inn Creekside",
+    "The Virginian Lodge, an",
+    "Antler Inn",
+    "Spring Creek Ranch",
+    "49'er Inn & Suites",
+    "The Rockwell Inn",
+    "Parkway Inn of Jackson H"
+   ]
+  },
+  "peak": {
+   "n": 11,
+   "xmas": 281,
+   "peak": 351
+  },
+  "available": [
+   32,
+   31,
+   37
+  ]
+ },
+ "Red River, New Mexico": {
+  "feb1": {
+   "n": 6,
+   "xmas": 652,
+   "feb": 188,
+   "cheaper_feb": 6,
+   "names": [
+    "Alpine Lodge Red River",
+    "Casa Nueva #6 Townhouse",
+    "Grandview #12 Townhouse",
+    "Our Red River Cabin On T",
+    "Grandview #9 Townhouse",
+    "Grandview #10 Townhouse"
+   ]
+  },
+  "peak": {
+   "n": 3,
+   "xmas": 492,
+   "peak": 527
+  },
+  "available": [
+   33,
+   12,
+   129
+  ]
+ }
+}
