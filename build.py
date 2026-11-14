@@ -105,6 +105,17 @@ D = [
 GAS_MPG, GAS_PRICE = 20, 3.00  # assumption for the drive option; editable in the calculator
 PEOPLE, NIGHTS = 4, 5
 
+# The week before Christmas week, Dec 14-19 (research/booking_dec14_raw.txt, flights_cars_raw.txt).
+# lodge = (Dec 21-26, Dec 14-19) average at the same n hotels; fly = United fare per person; snow = NOAA Dec 17.
+DEC14 = dict(
+    steamboat=dict(lodge=(340, 158, 10), fly=522, car=243, odds=96.6, depth=13, low=8, flag="No nonstop that week: one stop on United"),
+    jackson=dict(lodge=(278, 188, 12), fly=485, car=234, odds=95.8, depth=15, low=11, flag="One stop. Elk sleigh rides do not start until Dec 19"),
+    estes=dict(lodge=(176, 148, 9), fly=361, car=174, odds=71.3, depth=4, low=2, flag=""),
+    breck=dict(lodge=(373, 268, 3), fly=361, car=174, odds=95.3, depth=15, low=10, flag="Only 3 hotels matched"),
+    winterpark=dict(lodge=(435, 265, 9), fly=361, car=174, odds=98.4, depth=19, low=14, flag=""),
+    redriver=dict(lodge=(652, 301, 6), fly=0, car=0, odds=61.9, depth=6, low=2, flag=""),
+)
+
 # Presidents Day week check (Feb 12-17): same hotels.
 PRES = dict(steamboat_lodge=(339, 396, 11), hdn_fly=546, den_fly=341)  # research/booking_presidents_raw.txt
 
@@ -230,6 +241,27 @@ def peak_rows():
     return "".join(out)
 
 
+def dec14_rows():
+    out = []
+    for d in D:
+        x = DEC14[d["key"]]
+        travel = d["travel_x"] if d["drive"] else x["fly"] * PEOPLE
+        total = travel + x["lodge"][1] * NIGHTS + x["car"]
+        x["total"] = total
+        vf = total - d["total_f"]
+        flag = f'<span class="sub">{e(x["flag"])}</span>' if x["flag"] else ""
+        out.append(f"""
+        <tr>
+          <th scope="row">{e(d['name'])}{flag}</th>
+          <td class="tot">{money(total)}<span class="sub">hotel {money(x['lodge'][1])} a night</span></td>
+          <td>−{money(d['total_x'] - total)}</td>
+          <td>{'−' if vf < 0 else '+'}{money(abs(vf))}</td>
+          <td>{x['odds']:.0f}%<span class="sub">{d['n']['odds_x']:.0f}% on Dec 25</span></td>
+          <td>{x['depth']} in<span class="sub">{d['n']['depth_x']:.0f} in on Dec 25</span></td>
+        </tr>""")
+    return "".join(out)
+
+
 def snow_rows():
     out = []
     for d in D:
@@ -329,6 +361,7 @@ PAGE = f"""<!DOCTYPE html>
         <div class="callout stack stack--tight">
           <p><strong>Steamboat Springs, Dec 21–26, home on the 26th.</strong> About {money(sb['total_x'])} for flights, hotel and car, against {money(sb['total_f'])} in late February. The {money(sb['diff'])} difference buys a white Christmas with a 99% snow record.</p>
           <p><strong>If the {money(sb['diff'])} is better spent elsewhere:</strong> the same trip on Feb 22–27 has 10 more inches of snow on the ground and warmer afternoons.</p>
+          <p><strong>If being there on Christmas morning is not the point:</strong> Dec 14–19 is the cheapest snow-sure week priced. Winter Park comes to $2,943 and Jackson Hole to $3,114, both under their February totals.</p>
           <p><strong>Not recommended in any plan:</strong> any stay that runs past Dec 26, and Presidents Day week (Feb 12–17), which prices like Christmas.</p>
         </div>
       </div>
@@ -375,6 +408,26 @@ PAGE = f"""<!DOCTYPE html>
         <p class="caption muted">Hotel rates are averages of the same hotels in both weeks. Flights are United nonstop from Houston. "Places still bookable" is Booking.com's count for a family of four. Each comparison uses the hotels listed in both of its weeks, so the Dec 21–26 rate here differs a little from the cost table above.</p>
         <h3>The February week to skip</h3>
         <p>Presidents Day week, Feb 12–17, prices like Christmas: the same {PRES['steamboat_lodge'][2]} Steamboat hotels averaged ${PRES['steamboat_lodge'][1]} a night for Feb 12–17 against ${PRES['steamboat_lodge'][0]} for Dec 21–26, and the nonstop flight is ${PRES['hdn_fly']} against $389.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container stack">
+        <h2>A third option: the week before, Dec 14–19</h2>
+        <p>With no school calendar to work around, the week before Christmas week is open. The same hotels cost 16% to 54% less than Dec 21–26, and Denver rental cars drop from $435 to $174. You would be home for Christmas morning instead of waking up in the snow.</p>
+        <div class="tablewrap" tabindex="0" role="region" aria-label="Dec 14 to 19 against Christmas week and February">
+          <table class="num">
+            <thead><tr><th scope="col">Destination</th><th scope="col">Dec 14–19 total</th><th scope="col">Against Dec 21–26</th><th scope="col">Against February</th><th scope="col">Years with snow on Dec 17</th><th scope="col">Typical depth Dec 17</th></tr></thead>
+            <tbody>{dec14_rows()}
+            </tbody>
+          </table>
+        </div>
+        <ul class="notes">
+          <li><strong>Every fly-to destination except Steamboat comes out cheaper than February,</strong> Jackson Hole by the most ($475). Against Christmas week, Jackson Hole saves $767.</li>
+          <li><strong>Steamboat saves less than its hotels suggest.</strong> Hotels fall from $340 to $158 a night, but the nonstop flight is not on sale that week and the one-stop fare is $522 a person, against $389 nonstop on Dec 21.</li>
+          <li><strong>Snow is up to 3 inches thinner than on Christmas Day</strong> and the odds of snow on the ground are 1 to 4 points lower. In a low-snow year Steamboat has 8 inches on Dec 17.</li>
+          <li><strong>Not everything is open yet.</strong> Jackson's elk sleigh rides start Dec 19. Check opening dates for tubing hills before booking.</li>
+        </ul>
       </div>
     </section>
 
@@ -483,7 +536,7 @@ PAGE = f"""<!DOCTYPE html>
           <li>Hotel comparisons use 6 to 11 hotels per town: the ones Booking.com listed first in both weeks with a Christmas rate under $700 a night. Small samples; treat a gap under $200 as a tie.</li>
           <li>Rates are before lodging tax and resort fees. Flights exclude bags.</li>
           <li>Activity prices other than the three spot-checked ones come from the pages the GPT-6 Astra lane cited.</li>
-          <li>Rental cars were priced for Christmas week and February only, not for Dec 26–31 outside Denver.</li>
+          <li>Rental cars were priced for Dec 14–19, Christmas week and February, not for Dec 26–31 outside Denver.</li>
           <li>Snow records describe 1991–2020. Colorado's early season was thin in December 2025.</li>
           <li>The altitude guidance is the CDC's general advice for travelers, not medical advice for your children.</li>
         </ul>

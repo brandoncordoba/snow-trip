@@ -24,3 +24,9 @@ Denver airport - Winter Park: 1 hr 32 min, 88 miles
 Denver airport - Estes Park: 1 hr 21 min, 73 miles
 Denver airport - Breckenridge: 1 hr 43 min, 102 miles
 Hayden airport (HDN) - Steamboat Springs: 28 min, 24 miles
+
+# Added for the Dec 14-19, 2026 week, read 2026-11-14.
+IAH-DEN  Dec 14-19: United nonstop $361 (Frontier nonstop $230)
+IAH-HDN  Dec 14-19: no nonstop shown; United one-stop $522; United two-stop $435
+IAH-JAC  Dec 14-19: no nonstop shown; United one-stop $485; American one-stop $414
+Kayak cars Dec 14-19: DEN $174, HDN $243, JAC $234
