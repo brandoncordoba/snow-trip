@@ -1,0 +1,557 @@
+{
+ "assumptions": "2 adults + 2 children (4-7), one room/condo sleeping 4, 5 nights; Christmas week Dec 21-26 2026 vs Feb 1-6 or 22-27 2027. Most sites were JavaScript-rendered or blocked WebSearch/WebFetch, so nearly all numbers are labeled estimates from general knowledge, not read from pages.",
+ "destinations": [
+  {
+   "name": "Winter Park",
+   "state_or_province": "Colorado",
+   "nearest_airport_code": "DEN",
+   "base_elevation_ft": 9052,
+   "drive_hours_from_conroe_tx": 17.5,
+   "flight_hours_from_iah": 2.6,
+   "airport_to_town_drive_hours": 1.75,
+   "white_christmas_probability_pct": 90,
+   "avg_snow_depth_late_dec_in": 20,
+   "avg_snow_depth_mid_feb_in": 40,
+   "avg_high_f_late_dec": 29,
+   "avg_low_f_late_dec": 8,
+   "avg_high_f_mid_feb": 32,
+   "avg_low_f_mid_feb": 9,
+   "lodging_per_night_christmas_usd": 450,
+   "lodging_per_night_february_usd": 250,
+   "flight_per_person_christmas_usd": 520,
+   "flight_per_person_february_usd": 300,
+   "crowd_level_christmas": "high",
+   "crowd_level_february": "medium",
+   "kid_activities": [
+    {
+     "name": "Coca-Cola Tubing Hill",
+     "price_usd": 35,
+     "min_age_or_height": "estimate; check resort for age/height rules",
+     "note": "Lift-served tube lanes"
+    },
+    {
+     "name": "Kids ski and ride lesson",
+     "price_usd": 150,
+     "min_age_or_height": "estimate; typically ages 3-4 and up",
+     "note": "Half-day beginner lesson"
+    },
+    {
+     "name": "Scenic snowcat tour",
+     "price_usd": null,
+     "min_age_or_height": "unknown",
+     "note": "Price not found"
+    }
+   ],
+   "nature_highlight": "Continental Divide snowfields; Fraser Valley wildlife and moose",
+   "why_memorable_for_ages_4_to_7": "Tubing hill, snowcat tours, Cabriolet gondola ride, ski school",
+   "risks": "Altitude 9,000 ft; Berthoud Pass/I-70 closures; Christmas lodging often 3-5 night minimums.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.winterparkresort.com/plan-your-trip/hotel-lodging",
+    "https://www.winterparkresort.com/plan-your-trip/deals-and-packages/kids-lesson-and-lift",
+    "https://shop.winterparkresort.com/l/winter-activities/tubing/p/cocacolatubinghill"
+   ]
+  },
+  {
+   "name": "Breckenridge",
+   "state_or_province": "Colorado",
+   "nearest_airport_code": "DEN",
+   "base_elevation_ft": 9600,
+   "drive_hours_from_conroe_tx": 19,
+   "flight_hours_from_iah": 2.6,
+   "airport_to_town_drive_hours": 1.75,
+   "white_christmas_probability_pct": 90,
+   "avg_snow_depth_late_dec_in": 20,
+   "avg_snow_depth_mid_feb_in": 35,
+   "avg_high_f_late_dec": 30,
+   "avg_low_f_late_dec": 8,
+   "avg_high_f_mid_feb": 33,
+   "avg_low_f_mid_feb": 10,
+   "lodging_per_night_christmas_usd": 600,
+   "lodging_per_night_february_usd": 330,
+   "flight_per_person_christmas_usd": 520,
+   "flight_per_person_february_usd": 300,
+   "crowd_level_christmas": "very high",
+   "crowd_level_february": "medium",
+   "kid_activities": [
+    {
+     "name": "Sleigh ride/dinner",
+     "price_usd": 120,
+     "min_age_or_height": "estimate; kids welcome",
+     "note": "Horse-drawn"
+    },
+    {
+     "name": "Kids ski school",
+     "price_usd": 160,
+     "min_age_or_height": "estimate; ages 3+",
+     "note": "Beginner"
+    },
+    {
+     "name": "Tubing at nearby hill",
+     "price_usd": 40,
+     "min_age_or_height": "estimate; check height",
+     "note": "Snow tubing"
+    }
+   ],
+   "nature_highlight": "Historic mining town under snowy peaks",
+   "why_memorable_for_ages_4_to_7": "Victorian main street, sleigh rides, ski school",
+   "risks": "Altitude 9,600 ft, I-70 closures, 4-night Christmas minimums, very expensive.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.breckenridge.com/",
+    "https://www.visitbreckenridge.com/",
+    "https://www.ncei.noaa.gov/access/us-climate-normals/"
+   ]
+  },
+  {
+   "name": "Steamboat Springs",
+   "state_or_province": "Colorado",
+   "nearest_airport_code": "HDN",
+   "base_elevation_ft": 6732,
+   "drive_hours_from_conroe_tx": 21,
+   "flight_hours_from_iah": 2.9,
+   "airport_to_town_drive_hours": 0.5,
+   "white_christmas_probability_pct": 85,
+   "avg_snow_depth_late_dec_in": 18,
+   "avg_snow_depth_mid_feb_in": 35,
+   "avg_high_f_late_dec": 29,
+   "avg_low_f_late_dec": 8,
+   "avg_high_f_mid_feb": 31,
+   "avg_low_f_mid_feb": 10,
+   "lodging_per_night_christmas_usd": 520,
+   "lodging_per_night_february_usd": 290,
+   "flight_per_person_christmas_usd": 600,
+   "flight_per_person_february_usd": 380,
+   "crowd_level_christmas": "high",
+   "crowd_level_february": "medium",
+   "kid_activities": [
+    {
+     "name": "Howelsen Hill tubing",
+     "price_usd": 20,
+     "min_age_or_height": "estimate; check height",
+     "note": "Town hill"
+    },
+    {
+     "name": "Hot springs soak",
+     "price_usd": 25,
+     "min_age_or_height": "estimate; kids rules apply",
+     "note": "Daytime for kids"
+    },
+    {
+     "name": "Kids ski school",
+     "price_usd": 150,
+     "min_age_or_height": "estimate; ages 3+",
+     "note": "Beginner"
+    }
+   ],
+   "nature_highlight": "Natural hot springs in snow",
+   "why_memorable_for_ages_4_to_7": "Strawberry Park hot springs, Howelsen tubing, Champagne powder",
+   "risks": "Long drive; HDN seasonal flights may be unavailable; low altitude is a plus.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.steamboat.com/",
+    "https://www.visitsteamboat.com/",
+    "https://www.ncei.noaa.gov/access/us-climate-normals/"
+   ]
+  },
+  {
+   "name": "Estes Park / Rocky Mountain National Park",
+   "state_or_province": "Colorado",
+   "nearest_airport_code": "DEN",
+   "base_elevation_ft": 7522,
+   "drive_hours_from_conroe_tx": 17.5,
+   "flight_hours_from_iah": 2.6,
+   "airport_to_town_drive_hours": 1.75,
+   "white_christmas_probability_pct": 55,
+   "avg_snow_depth_late_dec_in": 4,
+   "avg_snow_depth_mid_feb_in": 6,
+   "avg_high_f_late_dec": 38,
+   "avg_low_f_late_dec": 17,
+   "avg_high_f_mid_feb": 40,
+   "avg_low_f_mid_feb": 18,
+   "lodging_per_night_christmas_usd": 320,
+   "lodging_per_night_february_usd": 180,
+   "flight_per_person_christmas_usd": 520,
+   "flight_per_person_february_usd": 300,
+   "crowd_level_christmas": "medium",
+   "crowd_level_february": "low",
+   "kid_activities": [
+    {
+     "name": "Park entry per vehicle",
+     "price_usd": 35,
+     "min_age_or_height": "all ages; $15-$35 verified at nps.gov",
+     "note": "Fees page"
+    },
+    {
+     "name": "Ranger-led snowshoe walks",
+     "price_usd": null,
+     "min_age_or_height": "ages vary; check",
+     "note": "Not priced"
+    },
+    {
+     "name": "Elk viewing",
+     "price_usd": 0,
+     "min_age_or_height": "all ages",
+     "note": "Free"
+    }
+   ],
+   "nature_highlight": "Rocky Mountain National Park elk and winter peaks",
+   "why_memorable_for_ages_4_to_7": "Elk viewing, snowshoeing, snowy peaks",
+   "risks": "Snow in town often thin in December; Trail Ridge Road closed in winter; wind.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.nps.gov/romo/planyourvisit/basicinfo.htm",
+    "https://www.nps.gov/romo/planyourvisit/fees.htm",
+    "https://www.nps.gov/romo/planyourvisit/conditions.htm"
+   ]
+  },
+  {
+   "name": "Red River",
+   "state_or_province": "New Mexico",
+   "nearest_airport_code": "ABQ",
+   "base_elevation_ft": 8681,
+   "drive_hours_from_conroe_tx": 13.5,
+   "flight_hours_from_iah": 1.8,
+   "airport_to_town_drive_hours": 3.5,
+   "white_christmas_probability_pct": 85,
+   "avg_snow_depth_late_dec_in": 14,
+   "avg_snow_depth_mid_feb_in": 28,
+   "avg_high_f_late_dec": 34,
+   "avg_low_f_late_dec": 10,
+   "avg_high_f_mid_feb": 38,
+   "avg_low_f_mid_feb": 12,
+   "lodging_per_night_christmas_usd": 280,
+   "lodging_per_night_february_usd": 170,
+   "flight_per_person_christmas_usd": 380,
+   "flight_per_person_february_usd": 260,
+   "crowd_level_christmas": "high",
+   "crowd_level_february": "low",
+   "kid_activities": [
+    {
+     "name": "Tubing",
+     "price_usd": 25,
+     "min_age_or_height": "estimate; height rules",
+     "note": "Snow tubing"
+    },
+    {
+     "name": "Winter constellations hike",
+     "price_usd": null,
+     "min_age_or_height": "all ages",
+     "note": "Free/Not priced"
+    },
+    {
+     "name": "Family sledding",
+     "price_usd": 0,
+     "min_age_or_height": "all ages",
+     "note": "Free"
+    }
+   ],
+   "nature_highlight": "Sangre de Cristo Mountains night skies",
+   "why_memorable_for_ages_4_to_7": "Ski area tubing, sledding, snowshoe, star hikes",
+   "risks": "Altitude 8,681 ft; long drive (13.5 h); Christmas lodging minimums.",
+   "estimated_fields": [
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://redriver.org/plan-your-trip/weather/",
+    "https://redriver.org/things-to-do/tubing/",
+    "https://redriver.org/things-to-do/family-fun/",
+    "https://redriver.org/things-to-do/red-river-ski-summer-area/"
+   ]
+  },
+  {
+   "name": "Pagosa Springs",
+   "state_or_province": "Colorado",
+   "nearest_airport_code": "DRO",
+   "base_elevation_ft": 7126,
+   "drive_hours_from_conroe_tx": 15.5,
+   "flight_hours_from_iah": 2.4,
+   "airport_to_town_drive_hours": 1.2,
+   "white_christmas_probability_pct": 55,
+   "avg_snow_depth_late_dec_in": 5,
+   "avg_snow_depth_mid_feb_in": 10,
+   "avg_high_f_late_dec": 38,
+   "avg_low_f_late_dec": 11,
+   "avg_high_f_mid_feb": 42,
+   "avg_low_f_mid_feb": 14,
+   "lodging_per_night_christmas_usd": 250,
+   "lodging_per_night_february_usd": 170,
+   "flight_per_person_christmas_usd": 550,
+   "flight_per_person_february_usd": 420,
+   "crowd_level_christmas": "medium",
+   "crowd_level_february": "low",
+   "kid_activities": [
+    {
+     "name": "Hot springs soak",
+     "price_usd": 40,
+     "min_age_or_height": "estimate; kids ok",
+     "note": "Family pools"
+    },
+    {
+     "name": "Snow tubing",
+     "price_usd": 25,
+     "min_age_or_height": "estimate",
+     "note": "Nearby ski areas"
+    },
+    {
+     "name": "Wolf Creek snowshoe",
+     "price_usd": null,
+     "min_age_or_height": "all ages",
+     "note": "Not priced"
+    }
+   ],
+   "nature_highlight": "Giant geothermal hot springs",
+   "why_memorable_for_ages_4_to_7": "Hot springs, wolf creek snow, gentle winter",
+   "risks": "Town snow often thin; drive 15.5 h; DRO flights limited.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.visitpagosasprings.com/",
+    "https://www.pagosahotsprings.com/",
+    "https://www.ncei.noaa.gov/access/us-climate-normals/"
+   ]
+  },
+  {
+   "name": "Jackson Hole",
+   "state_or_province": "Wyoming",
+   "nearest_airport_code": "JAC",
+   "base_elevation_ft": 6237,
+   "drive_hours_from_conroe_tx": 26,
+   "flight_hours_from_iah": 3.5,
+   "airport_to_town_drive_hours": 0.3,
+   "white_christmas_probability_pct": 90,
+   "avg_snow_depth_late_dec_in": 14,
+   "avg_snow_depth_mid_feb_in": 22,
+   "avg_high_f_late_dec": 27,
+   "avg_low_f_late_dec": 7,
+   "avg_high_f_mid_feb": 28,
+   "avg_low_f_mid_feb": 7,
+   "lodging_per_night_christmas_usd": 600,
+   "lodging_per_night_february_usd": 330,
+   "flight_per_person_christmas_usd": 700,
+   "flight_per_person_february_usd": 480,
+   "crowd_level_christmas": "very high",
+   "crowd_level_february": "medium",
+   "kid_activities": [
+    {
+     "name": "Elk Refuge sleigh ride",
+     "price_usd": 30,
+     "min_age_or_height": "estimate; ages 5 and under cheaper",
+     "note": "Real wildlife"
+    },
+    {
+     "name": "Kids ski school",
+     "price_usd": 150,
+     "min_age_or_height": "estimate; ages 3+",
+     "note": "Beginner"
+    },
+    {
+     "name": "Snow tubing",
+     "price_usd": 30,
+     "min_age_or_height": "estimate",
+     "note": "Nearby"
+    }
+   ],
+   "nature_highlight": "Grand Teton views and elk refuge",
+   "why_memorable_for_ages_4_to_7": "Sleigh ride National Elk Refuge, Teton views",
+   "risks": "Expensive flights and lodging; cold nights.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.jacksonhole.com/",
+    "https://www.visitjacksonhole.com/",
+    "https://www.nps.gov/grte/index.htm"
+   ]
+  },
+  {
+   "name": "Banff",
+   "state_or_province": "Alberta",
+   "nearest_airport_code": "YYC",
+   "base_elevation_ft": 4537,
+   "drive_hours_from_conroe_tx": 36,
+   "flight_hours_from_iah": 3.8,
+   "airport_to_town_drive_hours": 1.4,
+   "white_christmas_probability_pct": 90,
+   "avg_snow_depth_late_dec_in": 10,
+   "avg_snow_depth_mid_feb_in": 18,
+   "avg_high_f_late_dec": 24,
+   "avg_low_f_late_dec": 5,
+   "avg_high_f_mid_feb": 29,
+   "avg_low_f_mid_feb": 7,
+   "lodging_per_night_christmas_usd": 380,
+   "lodging_per_night_february_usd": 240,
+   "flight_per_person_christmas_usd": 600,
+   "flight_per_person_february_usd": 480,
+   "crowd_level_christmas": "very high",
+   "crowd_level_february": "medium",
+   "kid_activities": [
+    {
+     "name": "Lake Louise sleigh ride",
+     "price_usd": 60,
+     "min_age_or_height": "estimate; kids ok",
+     "note": "Horse-drawn"
+    },
+    {
+     "name": "Ice skating",
+     "price_usd": 0,
+     "min_age_or_height": "all ages",
+     "note": "Free"
+    },
+    {
+     "name": "Gondola ride",
+     "price_usd": 60,
+     "min_age_or_height": "estimate; kids reduced",
+     "note": "Sulphur Mountain"
+    }
+   ],
+   "nature_highlight": "Frozen lakes under Rockies",
+   "why_memorable_for_ages_4_to_7": "Lake skating, sleigh rides, gondola",
+   "risks": "Passport needed; very cold (-15F nights); long flights; lodging in CAD.",
+   "estimated_fields": [
+    "base_elevation_ft",
+    "drive_hours_from_conroe_tx",
+    "flight_hours_from_iah",
+    "airport_to_town_drive_hours",
+    "white_christmas_probability_pct",
+    "avg_snow_depth_late_dec_in",
+    "avg_snow_depth_mid_feb_in",
+    "avg_high_f_late_dec",
+    "avg_low_f_late_dec",
+    "avg_high_f_mid_feb",
+    "avg_low_f_mid_feb",
+    "lodging_per_night_christmas_usd",
+    "lodging_per_night_february_usd",
+    "flight_per_person_christmas_usd",
+    "flight_per_person_february_usd",
+    "crowd_level_christmas",
+    "crowd_level_february"
+   ],
+   "sources": [
+    "https://www.banfflakelouise.com/",
+    "https://www.tourismbanff.com/",
+    "https://parks.canada.ca/pn-np/ab/banff"
+   ]
+  }
+ ]
+}

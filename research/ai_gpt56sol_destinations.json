@@ -1,0 +1,519 @@
+{
+  "assumptions": "Travel periods are Dec 21-26, 2026 and Feb 1-6, 2027 for 2 adults and 2 children sharing one room/condo. Prices are USD before taxes/fees unless noted. Lodging is a representative room or condo that can sleep four, not a quote held for purchase; future inventory and occupancy rules change quickly. Airfares are economy round trips per person. Drive times assume normal, dry roads with no meal stops. Town temperatures use monthly normals as proxies for the requested late-December and mid-February windows. Snow depth uses the town station when available; Breckenridge and Whitefish use ski-area base history and are therefore not a promise of snow at the hotel. White-Christmas probabilities are estimates read from the NOAA/NCEI 1991-2020 map (or a comparable Canadian climate inference) because the interactive map did not expose precise station values in text. Activity prices are current published prices; Banff CAD prices were converted to USD at an estimated 0.72 USD/CAD.",
+  "destinations": [
+    {
+      "name": "Steamboat Springs",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "HDN",
+      "base_elevation_ft": 6900,
+      "drive_hours_from_conroe_tx": 18.4,
+      "flight_hours_from_iah": 3.1,
+      "airport_to_town_drive_hours": 0.5,
+      "white_christmas_probability_pct": 98,
+      "avg_snow_depth_late_dec_in": 12,
+      "avg_snow_depth_mid_feb_in": 28,
+      "avg_high_f_late_dec": 30.4,
+      "avg_low_f_late_dec": 6.3,
+      "avg_high_f_mid_feb": 34.3,
+      "avg_low_f_mid_feb": 7.9,
+      "lodging_per_night_christmas_usd": 210,
+      "lodging_per_night_february_usd": 165,
+      "flight_per_person_christmas_usd": 386,
+      "flight_per_person_february_usd": 369,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Saddleback Ranch Yee-Haw snow tubing",
+          "price_usd": 45,
+          "min_age_or_height": "Ages 5+ ride alone; age 4 and under rides free with an adult",
+          "note": "Two-hour ticket; lift-served hill 15 miles from town."
+        },
+        {
+          "name": "Old Town Hot Springs",
+          "price_usd": 27,
+          "min_age_or_height": "Youth price ages 3-14; ages 0-2 free",
+          "note": "All-day youth admission to mineral pools; water slide is $7 extra and the facility is closed Christmas Day."
+        },
+        {
+          "name": "Fish Creek Falls winter walk and snow play",
+          "price_usd": 0,
+          "min_age_or_height": "All ages with adult supervision",
+          "note": "Estimated $0 activity fee for the short scenic outing; traction, winter clothing and possible parking charges are separate."
+        }
+      ],
+      "nature_highlight": "Champagne-powder forests around Mount Werner, paired with the icy gorge at Fish Creek Falls.",
+      "why_memorable_for_ages_4_to_7": "A compact mix of deep snow, easy tubing, horses and a warm outdoor soak gives small children several distinct sensory memories without requiring full-day skiing.",
+      "risks": "Altitude is meaningful but lower than Breckenridge; nights can be below zero, HDN service is seasonal, roads can close in storms, Christmas lodging and tubing sell out, and some properties impose minimum stays.",
+      "estimated_fields": [
+        "drive_hours_from_conroe_tx",
+        "airport_to_town_drive_hours",
+        "white_christmas_probability_pct",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.steamboat.com/the-mountain/mountain-stats",
+        "https://www.co.routt.co.us/DocumentCenter/View/10764",
+        "https://saddlebackranch.net/winter-activities/snow-tubing/",
+        "https://oldtownhotsprings.org/rates/",
+        "https://helloaxel.com/en/hotels/destinations/steamboat-springs",
+        "https://www.expedia.com/lp/flights/iah/hdn/houston-to-steamboat-springs",
+        "https://noaa.maps.arcgis.com/apps/instant/sidebar/index.html?appid=b84e9ad7fa6d4c2da15001efc048c809"
+      ]
+    },
+    {
+      "name": "Breckenridge",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 9600,
+      "drive_hours_from_conroe_tx": 15.8,
+      "flight_hours_from_iah": 2.6,
+      "airport_to_town_drive_hours": 2,
+      "white_christmas_probability_pct": 95,
+      "avg_snow_depth_late_dec_in": 30,
+      "avg_snow_depth_mid_feb_in": 58,
+      "avg_high_f_late_dec": 30,
+      "avg_low_f_late_dec": 7,
+      "avg_high_f_mid_feb": 32,
+      "avg_low_f_mid_feb": 8,
+      "lodging_per_night_christmas_usd": 650,
+      "lodging_per_night_february_usd": 476,
+      "flight_per_person_christmas_usd": 341,
+      "flight_per_person_february_usd": 155,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "high",
+      "kid_activities": [
+        {
+          "name": "Frisco Adventure Park snow tubing",
+          "price_usd": 55,
+          "min_age_or_height": "Minimum 36 inches; children under 8 need a ticketed adult",
+          "note": "One-hour 2026-27 holiday ticket; the non-holiday base rate is $44."
+        },
+        {
+          "name": "Breckenridge Stables scenic sleigh ride",
+          "price_usd": 49,
+          "min_age_or_height": "Child price ages 4-12; ages 3 and under free",
+          "note": "A 35-45 minute horse-drawn ride with hot chocolate and Tenmile Range views."
+        },
+        {
+          "name": "Frisco Adventure Park traditional sledding hill",
+          "price_usd": 0,
+          "min_age_or_height": "All ages with adult supervision",
+          "note": "Free designated hill; bring or rent a sled."
+        }
+      ],
+      "nature_highlight": "The Tenmile Range rises directly behind a storybook historic mining town.",
+      "why_memorable_for_ages_4_to_7": "Snow is nearly guaranteed at the mountain base and the children can tube, sled and hear sleigh bells in one compact area.",
+      "risks": "The 9,600-foot sleeping elevation is the largest medical-comfort concern in this list; I-70 weather and traffic can cause hours of delay, Christmas is exceptionally crowded, lodging sells out, and 7-12 night minimum-stay rules appear at some condos.",
+      "estimated_fields": [
+        "drive_hours_from_conroe_tx",
+        "airport_to_town_drive_hours",
+        "white_christmas_probability_pct",
+        "avg_high_f_late_dec",
+        "avg_low_f_late_dec",
+        "avg_high_f_mid_feb",
+        "avg_low_f_mid_feb",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.breckenridge.com/the-mountain/about-the-mountain/mountain-info",
+        "https://www.onthesnow.com/boulder/breckenridge/historical-snowfall",
+        "https://www.townoffrisco.com/things-to-do/frisco-adventure-park/tubing/",
+        "https://breckstables.com/sleigh-rides-scenic/",
+        "https://www.breckmountainrentals.com/property/721482265640570437/snodallion-21?checkin=2026-12-19&checkout=2026-12-23",
+        "https://www.trivago.com/en-US/odr/hotels-breckenridge-colorado?search=200-14282",
+        "https://www.breckenridge.com/explore-the-resort/about-the-resort/getting-here.aspx?tc_1=4"
+      ]
+    },
+    {
+      "name": "Estes Park",
+      "state_or_province": "Colorado",
+      "nearest_airport_code": "DEN",
+      "base_elevation_ft": 7522,
+      "drive_hours_from_conroe_tx": 16.6,
+      "flight_hours_from_iah": 2.6,
+      "airport_to_town_drive_hours": 1.5,
+      "white_christmas_probability_pct": 65,
+      "avg_snow_depth_late_dec_in": 1.5,
+      "avg_snow_depth_mid_feb_in": 2,
+      "avg_high_f_late_dec": 40,
+      "avg_low_f_late_dec": 18,
+      "avg_high_f_mid_feb": 41,
+      "avg_low_f_mid_feb": 17,
+      "lodging_per_night_christmas_usd": 190,
+      "lodging_per_night_february_usd": 164,
+      "flight_per_person_christmas_usd": 341,
+      "flight_per_person_february_usd": 155,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "YMCA of the Rockies sledding and ice skating day pass",
+          "price_usd": 14,
+          "min_age_or_height": "Child price ages 6-12; age 5 and under free",
+          "note": "Pass includes the weather-dependent sled hill and skate rentals; included for YMCA lodging guests."
+        },
+        {
+          "name": "YMCA snowshoe rental",
+          "price_usd": 5,
+          "min_age_or_height": "Child rate age 12 and under",
+          "note": "Easy way to explore snowy pine trails; day pass may also be required for non-guests."
+        },
+        {
+          "name": "Hidden Valley sledding in Rocky Mountain National Park",
+          "price_usd": 0,
+          "min_age_or_height": "All ages with close adult supervision",
+          "note": "Estimated $0 sledding fee at the only legal hill inside the park; bring a sled and pay any applicable park vehicle admission separately."
+        }
+      ],
+      "nature_highlight": "Rocky Mountain National Park's snowy peaks, frozen lakes and unusually visible winter elk.",
+      "why_memorable_for_ages_4_to_7": "Children can watch elk in the valley, sled inside a national park and return to low-key family facilities rather than a hectic ski base.",
+      "risks": "Snow cover in town is not reliable even when higher park elevations are white; Trail Ridge Road is seasonally closed, Hidden Valley is weather dependent, canyon roads can be icy, and wind chill can be severe.",
+      "estimated_fields": [
+        "drive_hours_from_conroe_tx",
+        "airport_to_town_drive_hours",
+        "white_christmas_probability_pct",
+        "avg_snow_depth_late_dec_in",
+        "avg_snow_depth_mid_feb_in",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.visitestespark.com/plan/about/faq/",
+        "https://www.nps.gov/romo/planyourvisit/weather-ep.htm",
+        "https://www.nps.gov/romo/planyourvisit/winter-recreation.htm",
+        "https://www.ymcarockies.org/estes-park/estes-park-activities",
+        "https://www.ymcarockies.org/things-to-do/day-pass",
+        "https://www.expedia.com/Estes-Park-Hotels.d7854.Travel-Guide-Hotels"
+      ]
+    },
+    {
+      "name": "Ruidoso",
+      "state_or_province": "New Mexico",
+      "nearest_airport_code": "ABQ",
+      "base_elevation_ft": 6920,
+      "drive_hours_from_conroe_tx": 13.7,
+      "flight_hours_from_iah": 3,
+      "airport_to_town_drive_hours": 3,
+      "white_christmas_probability_pct": 25,
+      "avg_snow_depth_late_dec_in": 0.5,
+      "avg_snow_depth_mid_feb_in": 1,
+      "avg_high_f_late_dec": 48.4,
+      "avg_low_f_late_dec": 21.5,
+      "avg_high_f_mid_feb": 51,
+      "avg_low_f_mid_feb": 23.2,
+      "lodging_per_night_christmas_usd": 355,
+      "lodging_per_night_february_usd": 180,
+      "flight_per_person_christmas_usd": 380,
+      "flight_per_person_february_usd": 329,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "low",
+      "kid_activities": [
+        {
+          "name": "Ruidoso Winter Park snow tubing",
+          "price_usd": 38,
+          "min_age_or_height": "Regular ticket age 4+; hills range from 36-inch to 46-inch minimums",
+          "note": "Three-hour ticket with extensive snowmaking; holiday lines can be long."
+        },
+        {
+          "name": "Screaming Eagle Mountain Coaster passenger ride",
+          "price_usd": 8,
+          "min_age_or_height": "Passenger minimum 36 inches; driver carrying a child must be 16+",
+          "note": "Ages 3-5 ride free; $8 is the published ages 6-8 passenger price."
+        },
+        {
+          "name": "Ruidoso Winter Park family zipline",
+          "price_usd": 10,
+          "min_age_or_height": "Minimum 40 inches and 45 pounds",
+          "note": "A 300-foot dual zipline; wind and weather can stop operation."
+        }
+      ],
+      "nature_highlight": "The forested Sacramento Mountains and snow-striped Sierra Blanca above the Chihuahuan Desert.",
+      "why_memorable_for_ages_4_to_7": "The family can road-trip, stay in a pine cabin and get guaranteed manufactured snow play even if the village itself is brown.",
+      "risks": "This is the weakest real-snow bet: natural snow in town is intermittent, Ski Apache access is a winding mountain road, wildfire and flood recovery remain visible, Christmas attractions reach capacity, and a 13.7-hour drive is long with small children.",
+      "estimated_fields": [
+        "flight_hours_from_iah",
+        "white_christmas_probability_pct",
+        "avg_snow_depth_late_dec_in",
+        "avg_snow_depth_mid_feb_in",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.rome2rio.com/s/Conroe/Ruidoso",
+        "https://www.visitruidoso.com/wp-content/uploads/2021/09/RVG21-WEB-Small-Size.pdf",
+        "https://ruidosowinterpark.com/winter-tubing/",
+        "https://ruidosowinterpark.com/mountain-coaster/",
+        "https://ruidosowinterpark.com/zipline/",
+        "https://www.skiapache.com/winter-lift-tickets/",
+        "https://www.lodginginruidoso.com/property/638829943404367634/lifes-a-hoot?checkin=2026-10-07&checkout=2026-10-09"
+      ]
+    },
+    {
+      "name": "Jackson",
+      "state_or_province": "Wyoming",
+      "nearest_airport_code": "JAC",
+      "base_elevation_ft": 6237,
+      "drive_hours_from_conroe_tx": 24.1,
+      "flight_hours_from_iah": 3.6,
+      "airport_to_town_drive_hours": 0.25,
+      "white_christmas_probability_pct": 95,
+      "avg_snow_depth_late_dec_in": 8,
+      "avg_snow_depth_mid_feb_in": 14,
+      "avg_high_f_late_dec": 29,
+      "avg_low_f_late_dec": 7,
+      "avg_high_f_mid_feb": 32,
+      "avg_low_f_mid_feb": 7,
+      "lodging_per_night_christmas_usd": 350,
+      "lodging_per_night_february_usd": 250,
+      "flight_per_person_christmas_usd": 549,
+      "flight_per_person_february_usd": 326,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "National Elk Refuge sleigh ride",
+          "price_usd": 27,
+          "min_age_or_height": "Child price ages 5-12; age 4 and under free",
+          "note": "About one hour among thousands of wintering elk; it does not operate on Christmas Day."
+        },
+        {
+          "name": "Snow King two-hour tubing",
+          "price_usd": 50,
+          "min_age_or_height": "Minimum 42 inches; every rider uses a separate tube",
+          "note": "In-town magic-carpet tubing; a 4-year-old may be too short."
+        },
+        {
+          "name": "Snow King winter scenic gondola",
+          "price_usd": 35,
+          "min_age_or_height": "Published ticket applies age 6+; age 5 and under free",
+          "note": "Wide views across Jackson toward the Tetons without needing to ski."
+        }
+      ],
+      "nature_highlight": "The sawtooth Teton skyline and winter wildlife corridor of the National Elk Refuge.",
+      "why_memorable_for_ages_4_to_7": "Few experiences match riding a horse-drawn sleigh close to a huge elk herd with the Tetons filling the horizon.",
+      "risks": "Severe cold and inversions are common, JAC flights are weather-sensitive and seasonal from Houston, some Yellowstone and Grand Teton roads are closed, Christmas prices sell out, and tubing's 42-inch rule may exclude the youngest child.",
+      "estimated_fields": [
+        "base_elevation_ft",
+        "drive_hours_from_conroe_tx",
+        "airport_to_town_drive_hours",
+        "white_christmas_probability_pct",
+        "avg_snow_depth_late_dec_in",
+        "avg_snow_depth_mid_feb_in",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.mountainweather.com/jackson-hole/jackson-hole-climate/",
+        "https://www.jacksonholechamber.com/outdoors/winter-activities/sleigh-rides/",
+        "https://store.snowkingmountain.com/en/catalogue/category/600-winter-activities_444/",
+        "https://store.snowkingmountain.com/en/catalogue/tube-coaster-combo-day-of-purchases-available-onsite-only_2275/",
+        "https://www.travelocity.com/lp/flights/hou/jac/william-p-hobby-to-jackson-hole",
+        "https://helloaxel.com/en/hotels/destinations/jackson-hole",
+        "https://www.rome2rio.com/s/Houston-Airport-IAH/Jackson-Airport-JAC"
+      ]
+    },
+    {
+      "name": "Whitefish",
+      "state_or_province": "Montana",
+      "nearest_airport_code": "FCA",
+      "base_elevation_ft": 3100,
+      "drive_hours_from_conroe_tx": 31,
+      "flight_hours_from_iah": 6.5,
+      "airport_to_town_drive_hours": 0.25,
+      "white_christmas_probability_pct": 80,
+      "avg_snow_depth_late_dec_in": 19,
+      "avg_snow_depth_mid_feb_in": 34,
+      "avg_high_f_late_dec": 31,
+      "avg_low_f_late_dec": 17,
+      "avg_high_f_mid_feb": 34,
+      "avg_low_f_mid_feb": 16,
+      "lodging_per_night_christmas_usd": 250,
+      "lodging_per_night_february_usd": 180,
+      "flight_per_person_christmas_usd": 494,
+      "flight_per_person_february_usd": 420,
+      "crowd_level_christmas": "high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Winter visit to Glacier National Park at Lake McDonald",
+          "price_usd": 25,
+          "min_age_or_height": "All ages; price is per private vehicle in winter",
+          "note": "Plowed access is limited, but Apgar and Lake McDonald offer huge snowy views and simple snow play."
+        },
+        {
+          "name": "Stumptown Ice Den public skating",
+          "price_usd": null,
+          "min_age_or_height": "All ages; toddler skates, helmets and walkers may be available",
+          "note": "Indoor Olympic-style rink; the current public-session price could not be verified."
+        },
+        {
+          "name": "Glacier Nordic Center family cross-country skiing",
+          "price_usd": null,
+          "min_age_or_height": "All ages; child equipment sizing applies",
+          "note": "Fifteen kilometers of groomed trail at Whitefish Lake Golf Club; current child trail-pass and rental prices could not be verified."
+        }
+      ],
+      "nature_highlight": "Snowy Lake McDonald framed by the glaciated peaks of Glacier National Park.",
+      "why_memorable_for_ages_4_to_7": "The town sleeps far lower than Colorado's high resorts while still offering a deep mountain snow base and an easy first look at Glacier National Park.",
+      "risks": "The quoted snow depths are at the ski mountain, not in town; most of Going-to-the-Sun Road is closed, winter park services are sparse, Houston nonstop service is not scheduled in winter, fog can affect skiing, and February includes Winter Carnival demand.",
+      "estimated_fields": [
+        "drive_hours_from_conroe_tx",
+        "flight_hours_from_iah",
+        "airport_to_town_drive_hours",
+        "white_christmas_probability_pct",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.cityofwhitefish.gov/DocumentCenter/View/6693/Vision-Whitefish-2045-Community-Plan",
+        "https://www.onthesnow.com/montana/whitefish-mountain-resort/historical-snowfall",
+        "https://www.whitefishchamber.org/assets/pdf/Whitefish-Guide-2024/",
+        "https://www.grandwelcome.com/rentals/66b55a93c3acee000e8bbcd8",
+        "https://helloaxel.com/en/flights/from-houston-to-kalispell-fca",
+        "https://www.flightconnections.com/flights-from-iah-to-fca",
+        "https://www.nps.gov/glac/planyourvisit/fees.htm"
+      ]
+    },
+    {
+      "name": "Banff",
+      "state_or_province": "Alberta",
+      "nearest_airport_code": "YYC",
+      "base_elevation_ft": 4540,
+      "drive_hours_from_conroe_tx": 32,
+      "flight_hours_from_iah": 4.5,
+      "airport_to_town_drive_hours": 1.5,
+      "white_christmas_probability_pct": 95,
+      "avg_snow_depth_late_dec_in": 6,
+      "avg_snow_depth_mid_feb_in": 8,
+      "avg_high_f_late_dec": 23,
+      "avg_low_f_late_dec": 7,
+      "avg_high_f_mid_feb": 32,
+      "avg_low_f_mid_feb": 12,
+      "lodging_per_night_christmas_usd": 340,
+      "lodging_per_night_february_usd": 180,
+      "flight_per_person_christmas_usd": 547,
+      "flight_per_person_february_usd": 405,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Mount Norquay snow tubing",
+          "price_usd": 23,
+          "min_age_or_height": "Minimum age 4 and minimum height 42 inches",
+          "note": "Approximate USD conversion of the published C$32 child starting price; three-hour session."
+        },
+        {
+          "name": "Lake Louise lakeshore sleigh ride",
+          "price_usd": null,
+          "min_age_or_height": "All ages; minors require a guardian waiver",
+          "note": "Storybook ride below glaciers; current 2026-27 child price could not be verified."
+        },
+        {
+          "name": "Lake Louise outdoor ice skating",
+          "price_usd": 0,
+          "min_age_or_height": "All ages; use a helmet for young children",
+          "note": "Estimated $0 separate rink admission because none was found; skate rental, parking/transit and national-park admission are separate."
+        }
+      ],
+      "nature_highlight": "Frozen Lake Louise beneath Victoria Glacier in Canada's first national park.",
+      "why_memorable_for_ages_4_to_7": "A frozen turquoise lake, castle-like hotel, gentle tubing and horse sleighs make the landscape feel genuinely storybook.",
+      "risks": "International travel adds passports and currency exposure; Arctic outbreaks can be dangerously cold, wildlife closures and avalanche terrain limit walks, winter tires are essential, and Christmas rooms and shuttles sell out.",
+      "estimated_fields": [
+        "drive_hours_from_conroe_tx",
+        "white_christmas_probability_pct",
+        "avg_snow_depth_late_dec_in",
+        "avg_snow_depth_mid_feb_in",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd"
+      ],
+      "sources": [
+        "https://parks.canada.ca/pn-np/ab/banff/securite-safety/meteo-weather.",
+        "https://banffnorquay.com/tubing/",
+        "https://www.banfflakelouise.com/experiences/sleigh-ride-lake-louise",
+        "https://bedandmarket.com/en/market/banff-ab?noc=2026-12-16",
+        "https://helloaxel.com/en/flights/from-houston-to-calgary-yyc",
+        "https://www.google.com/travel/flights/flights-from-houston-to-banff.html"
+      ]
+    },
+    {
+      "name": "South Lake Tahoe",
+      "state_or_province": "California",
+      "nearest_airport_code": "RNO",
+      "base_elevation_ft": 6225,
+      "drive_hours_from_conroe_tx": 29.5,
+      "flight_hours_from_iah": 4.5,
+      "airport_to_town_drive_hours": 1.25,
+      "white_christmas_probability_pct": 60,
+      "avg_snow_depth_late_dec_in": 6,
+      "avg_snow_depth_mid_feb_in": 12,
+      "avg_high_f_late_dec": 42.8,
+      "avg_low_f_late_dec": 18,
+      "avg_high_f_mid_feb": 43.4,
+      "avg_low_f_mid_feb": 19.3,
+      "lodging_per_night_christmas_usd": 260,
+      "lodging_per_night_february_usd": 190,
+      "flight_per_person_christmas_usd": 592,
+      "flight_per_person_february_usd": 290,
+      "crowd_level_christmas": "very high",
+      "crowd_level_february": "medium",
+      "kid_activities": [
+        {
+          "name": "Tube Tahoe snow tubing",
+          "price_usd": 55,
+          "min_age_or_height": "Child rate ages 6-12; ages 3-5 are $35 weekdays and ride with an adult",
+          "note": "Weekday 1.5-hour child ticket with tube; weekend child price is $65."
+        },
+        {
+          "name": "Heavenly Village outdoor ice skating",
+          "price_usd": null,
+          "min_age_or_height": "All ages; child skate sizes available",
+          "note": "One wristband permits same-day re-entry; the current 2026 price was not visible on the opened page."
+        },
+        {
+          "name": "Emerald Bay overlook and lakeshore snow play",
+          "price_usd": 0,
+          "min_age_or_height": "All ages with close roadside supervision",
+          "note": "Estimated $0 activity fee at roadside viewpoints; parking may cost extra, and chain controls or closures can prevent access."
+        }
+      ],
+      "nature_highlight": "The cobalt expanse of Lake Tahoe and Emerald Bay surrounded by snowy Sierra granite.",
+      "why_memorable_for_ages_4_to_7": "The children get both a giant alpine lake and long machine-groomed tubing lanes, with milder daytime temperatures than the Rockies.",
+      "risks": "Town-level Christmas snow is not guaranteed, Sierra storms can close highways and require chains, holiday traffic is extreme, lakeshore ice is unsafe, and the Reno transfer can lengthen sharply in weather.",
+      "estimated_fields": [
+        "base_elevation_ft",
+        "drive_hours_from_conroe_tx",
+        "airport_to_town_drive_hours",
+        "white_christmas_probability_pct",
+        "avg_snow_depth_late_dec_in",
+        "avg_snow_depth_mid_feb_in",
+        "lodging_per_night_christmas_usd",
+        "lodging_per_night_february_usd",
+        "flight_per_person_christmas_usd",
+        "flight_per_person_february_usd"
+      ],
+      "sources": [
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&endDate=9996-12-31&format=pdf&startDate=0001-01-01&stations=USW00093230",
+        "https://tubetahoe.com/",
+        "https://visitlaketahoe.com/tour/heavenly-village-outdoor-ice-skating-rink/",
+        "https://bedandmarket.com/en/market/south-lake-tahoe-ca/cheapest-dates",
+        "https://helloaxel.com/en/flights/from-houston-to-reno-rno",
+        "https://www.flightconnections.com/flights-from-hou-to-rno"
+      ]
+    }
+  ]
+}

@@ -28,7 +28,7 @@ D = [
          kids=[
              ("Snow tubing at Saddleback Ranch", "$50.88 per rider for 2 hours; age 4 and under free on a parent's tube"),
              ("Old Town Hot Springs pools", "$27 per child (3–14), $35 per adult. Closed Christmas Day"),
-             ("Winter Carnival, Feb 2–7, 2027", "Street events with horses pulling kids on skis. February only (date from the GPT lane's source)"),
+             ("Winter Carnival, Feb 2–7, 2027", "Street events with horses pulling kids on skis. February only (date from the GPT-6 Astra lane's source)"),
          ],
          verdict="Best overall. Lowest sleeping elevation of the Colorado ski towns, a 99% snow record, a nonstop flight both ways, and a Christmas markup under $400.",
          note="February uses Feb 22–27 here because Feb 1–6 is Winter Carnival week, when the same hotels cost as much as Christmas."),
@@ -43,7 +43,7 @@ D = [
          kids=[
              ("Horse-drawn sleigh ride among the elk herd", "$43 adult, $28 child (5–12), age 4 and under free. Closed Christmas Day; season Dec 19–Apr 3"),
              ("Grand Teton National Park", "$35 per car for 7 days. Short snow walks and viewpoints"),
-             ("Astoria Hot Springs kids' pool", "$19 per child, $26.25 per adult (from the GPT lane's source, not rechecked)"),
+             ("Astoria Hot Springs kids' pool", "$19 per child, $26.25 per adult (from the GPT-6 Astra lane's source, not rechecked)"),
          ],
          verdict="Most memorable for nature. The elk sleigh ride is the one activity on this page a 4-year-old can do that exists nowhere else.",
          note="Snow record is from Moose, inside Grand Teton National Park, 12 miles north. The town of Jackson holds less snow."),
@@ -120,7 +120,8 @@ AI_VS_LIVE = [
 ]
 
 ALSO = [
-    ("Banff, Alberta", "GPT lane's #2. Canadian Rockies, sleigh rides, only 4,600 ft. Needs passports and a 1 hr 45 min drive from Calgary. Not price-checked."),
+    ("Whitefish, Montana", "GPT-5.6 Sol's #2. The town is at only 3,100 ft with a 92% NOAA snow record, next to Glacier National Park. Flights from Houston connect. Not price-checked."),
+    ("Banff, Alberta", "On all three AI lists. Canadian Rockies, sleigh rides, only 4,600 ft. Needs passports and a 1 hr 45 min drive from Calgary. Not price-checked."),
     ("West Yellowstone, Montana", "Geysers in the snow by heated snowcoach ($160 per child, $190 per adult for the day). A long, cold day for a 4-year-old."),
     ("Tahoe City, California", "Lake scenery and milder cold. 83% snow record, and rain is possible at lake level."),
     ("Santa Fe, New Mexico", "Drivable in 13 hours, but only a 9% chance of snow on the ground in town at Christmas. Ruled out."),
@@ -465,13 +466,13 @@ PAGE = f"""<!DOCTYPE html>
     <section class="section">
       <div class="container stack">
         <h2>How these numbers were checked</h2>
-        <p>Three AI models were each given the same brief through Ringer. Their output had to pass an automated check: at least 8 destinations, numbers in every field, and source links that load. Then every price on this page was read again from live booking sites, and every snow figure from NOAA's station files.</p>
+        <p>Five AI models were each given the same brief through Ringer, and three finished. Their output had to pass an automated check: at least 8 destinations, numbers in every field, and source links that load. Then every price on this page was read separately from live booking sites, and every snow figure from NOAA's station files.</p>
         <ul class="notes">
           <li><strong>GPT-6 Astra passed.</strong> Its snow figures matched NOAA. Its hotel and flight prices were labeled as estimates, and the live quotes show they were too pessimistic about Christmas:</li>
         </ul>
         <div class="tablewrap" tabindex="0" role="region" aria-label="AI estimate against live quote">
           <table class="num">
-            <thead><tr><th scope="col">Christmas / February</th><th scope="col">AI estimate</th><th scope="col">Live quote, {CHECKED}</th></tr></thead>
+            <thead><tr><th scope="col">Christmas / February</th><th scope="col">GPT-6 Astra estimate</th><th scope="col">Live quote, {CHECKED}</th></tr></thead>
             <tbody>{ai_rows()}</tbody>
           </table>
         </div>
@@ -483,7 +484,7 @@ PAGE = f"""<!DOCTYPE html>
         <ul class="notes">
           <li>Hotel comparisons use 6 to 11 hotels per town: the ones Booking.com listed first in both weeks with a Christmas rate under $700 a night. Small samples; treat a gap under $200 as a tie.</li>
           <li>Rates are before lodging tax and resort fees. Flights exclude bags.</li>
-          <li>Activity prices other than the three spot-checked ones come from the pages the GPT lane cited.</li>
+          <li>Activity prices other than the three spot-checked ones come from the pages the GPT-6 Astra lane cited.</li>
           <li>Rental cars were priced for Christmas week and February only, not for Dec 26–31 outside Denver.</li>
           <li>Snow records describe 1991–2020. Colorado's early season was thin in December 2025.</li>
           <li>The school calendar is Conroe ISD's. Other districts differ.</li>
